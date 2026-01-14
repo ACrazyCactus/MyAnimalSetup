@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="dog2.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.6"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="dog2_diffuse.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="dog_mat" materialId="5">
+      <Texture fileId="1"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="dog2.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="dogSkeleton" nodeId="11">
+      <TransformGroup name="Bip01" translation="-0.000964 0.420093 -0.259028" rotation="135 -90 135" nodeId="12">
+        <TransformGroup name="Bip01FBXASC032Footsteps" translation="0.00745262 -1.39698e-09 -0.387533" rotation="-1.10172 -1.29726e-06 89.9999" nodeId="13"/>
+        <TransformGroup name="Bip01FBXASC032Pelvis" rotation="135 -90 135" nodeId="14">
+          <TransformGroup name="Bip01FBXASC032Spine" translation="-0.00852465 0.0891474 -1.23373e-07" rotation="-0.000239157 2.20125e-05 89.7408" nodeId="15">
+            <TransformGroup name="Bip01FBXASC032Spine1" translation="0.157259 -0.000187154 -5.70744e-10" rotation="-2.18075e-16 -1.6986e-19 1.39149e-14" nodeId="16">
+              <TransformGroup name="Bip01FBXASC032Neck" translation="0.177429 -0.0910154 -2.51871e-07" rotation="-0.000276083 0.000315681 -50.606" nodeId="17">
+                <TransformGroup name="Bip01FBXASC032Head" translation="0.200089 2.93444e-08 1.04586e-11" rotation="0.000227827 -7.91828e-05 -2.30622" nodeId="18">
+                  <TransformGroup name="Bip01FBXASC032HeadNub" translation="0.063412 0 0" rotation="-3.25689e-12 0 0" nodeId="19"/>
+                  <TransformGroup name="Bip01FBXASC032Ponytail1" translation="-0.0341863 0.0983854 -0.000521472" rotation="178.812 -4.08178 82.2821" nodeId="20">
+                    <TransformGroup name="Bip01FBXASC032Ponytail1Nub" translation="0.108082 -5.96046e-08 -7.45058e-09" rotation="180 -0.000158642 89.9544" nodeId="21"/>
+                  </TransformGroup>
+                  <TransformGroup name="Bip01FBXASC032Ponytail2" translation="0.0195242 0.000207364 -0.00139533" rotation="-1.53099 1.40933 148.53" nodeId="22">
+                    <TransformGroup name="Bip01FBXASC032Ponytail2Nub" translation="0.125663 -2.98023e-08 0" rotation="180 -0.000159009 89.9544" nodeId="23"/>
+                  </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="Bip01FBXASC032LFBXASC032Clavicle" translation="-0.0863588 0.0208854 0.0147198" rotation="89.0745 -64.6604 141.584" nodeId="24">
+                  <TransformGroup name="Bip01FBXASC032LFBXASC032UpperArm" translation="0.083193 -1.17249e-09 1.18629e-08" rotation="-89.3668 1.53258 -64.9576" nodeId="25">
+                    <TransformGroup name="Bip01FBXASC032LFBXASC032Forearm" translation="0.078592 -2.97367e-09 5.45658e-09" rotation="0 0 -4.5856" nodeId="26">
+                      <TransformGroup name="Bip01FBXASC032LFBXASC032Hand" translation="0.183576 1.3014e-08 -5.57641e-09" rotation="-179.954 7.78019e-09 -5.00007" nodeId="27">
+                        <TransformGroup name="Bip01FBXASC032LFBXASC032Finger0" translation="0.093704 0.0369068 -0.00902839" rotation="0.183545 -0.574618 62.6975" nodeId="28">
+                          <TransformGroup name="Bip01FBXASC032LFBXASC032Finger0Nub" translation="0.078925 0 0" rotation="-2.13443e-07 -2.08817e-26 3.4151e-06" nodeId="29"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="Bip01FBXASC032RFBXASC032Clavicle" translation="-0.0863587 0.0208856 -0.0147202" rotation="-89.0764 64.6602 141.582" nodeId="30">
+                  <TransformGroup name="Bip01FBXASC032RFBXASC032UpperArm" translation="0.083193 -2.67965e-08 -1.34282e-08" rotation="89.3669 -1.53258 -64.9578" nodeId="31">
+                    <TransformGroup name="Bip01FBXASC032RFBXASC032Forearm" translation="0.078592 -4.1673e-09 -1.18375e-10" rotation="0 0 -4.5856" nodeId="32">
+                      <TransformGroup name="Bip01FBXASC032RFBXASC032Hand" translation="0.183576 1.02752e-08 7.59971e-09" rotation="179.954 -1.44439e-08 -5.00007" nodeId="33">
+                        <TransformGroup name="Bip01FBXASC032RFBXASC032Finger0" translation="0.093704 0.0369068 0.00902839" rotation="-0.183545 0.574618 62.6975" nodeId="34">
+                          <TransformGroup name="Bip01FBXASC032RFBXASC032Finger0Nub" translation="0.078925 7.45058e-09 7.45058e-09" rotation="-7.08319e-22 2.13443e-07 -180" scale="-1 -1 -1" nodeId="35"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="Bip01FBXASC032LFBXASC032Thigh" translation="-0.0891078 -0.0089281 0.0656211" rotation="171.823 -3.01569 85.8789" nodeId="36">
+              <TransformGroup name="Bip01FBXASC032LFBXASC032Calf" translation="0.151232 2.22462e-09 5.91147e-09" rotation="0 0 -41.8993" nodeId="37">
+                <TransformGroup name="Bip01FBXASC032LFBXASC032HorseLink" translation="0.142053 -3.14068e-08 -6.96755e-09" rotation="-1.03504e-06 -2.35733e-07 42.4364" nodeId="38">
+                  <TransformGroup name="Bip01FBXASC032LFBXASC032Foot" translation="0.102524 2.98399e-08 3.05085e-09" rotation="8.39039 -2.35297 -5.30542" nodeId="39">
+                    <TransformGroup name="Bip01FBXASC032LFBXASC032Toe0" translation="0.058606 0.105077 0" rotation="6.83015e-06 -2.30297e-12 90" nodeId="40">
+                      <TransformGroup name="Bip01FBXASC032LFBXASC032Toe0Nub" translation="0.00684401 4.65661e-10 0" rotation="5.76136e-27 2.51188e-12 180" scale="-1 -1 -1" nodeId="41"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="Bip01FBXASC032RFBXASC032Thigh" translation="-0.089108 -0.00892755 -0.065621" rotation="-171.823 3.01523 85.8789" nodeId="42">
+              <TransformGroup name="Bip01FBXASC032RFBXASC032Calf" translation="0.151232 -1.92034e-08 2.94285e-09" rotation="0 0 -41.8993" nodeId="43">
+                <TransformGroup name="Bip01FBXASC032RFBXASC032HorseLink" translation="0.142053 -2.34648e-08 4.38419e-09" rotation="-6.72766e-07 3.45948e-08 42.4363" nodeId="44">
+                  <TransformGroup name="Bip01FBXASC032RFBXASC032Foot" translation="0.102524 1.35383e-08 -9.15238e-09" rotation="-8.39039 2.35298 -5.30543" nodeId="45">
+                    <TransformGroup name="Bip01FBXASC032RFBXASC032Toe0" translation="0.058606 0.105077 3.72529e-09" rotation="-1.55135e-05 1.58189e-05 115" nodeId="46">
+                      <TransformGroup name="Bip01FBXASC032RFBXASC032Toe0Nub" translation="0.006844 -1.86265e-09 0" rotation="0 -2.03556e-12 0" nodeId="47"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="Bip01FBXASC032Tail" translation="-0.155059 -0.0550896 -7.43869e-08" rotation="-0.000265036 -0.000221501 129.125" nodeId="48">
+              <TransformGroup name="Bip01FBXASC032Tail1" translation="0.0658996 -3.94828e-05 -9.82366e-11" rotation="-1.07887e-05 5.75551e-05 -21.2338" nodeId="49">
+                <TransformGroup name="Bip01FBXASC032Tail2" translation="0.0531976 -5.87058e-05 -2.09961e-10" rotation="-6.42555e-07 1.42765e-05 -5.15421" nodeId="50">
+                  <TransformGroup name="Bip01FBXASC032TailNub" translation="0.073986 0 1.49012e-08" rotation="180 -0.000159015 89.9544" nodeId="51"/>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+    <Shape name="dogMesh" rotation="-90 0 0" shapeId="1" clipDistance="120" nodeId="52" castsShadows="true" receiveShadows="true" skinBindNodeIds="18 17 20 22 16 15 24 30 25 31 26 14 36 42 48 37 38 43 39 45 44 12 32 49 50 28 27 34 33" materialIds="5"/>
+    <Shape name="dogProxy" shapeId="2" visibility="false" kinematic="true" collisionFilterGroup="0x100000" collisionFilterMask="0x100000" linearDamping="0.5" angularDamping="0.5" nodeId="53" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6"/>
+    <Shape name="dogTranslation" shapeId="3" nodeId="54" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6"/>
+  </Scene>
+
+
+  <Animation externalAnimFile="dog2.i3d.anim" />
+</i3D>

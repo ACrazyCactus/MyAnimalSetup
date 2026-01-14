@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<wildlife xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../shared/xml/schema/wildlife.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <groups>
+        <!-- <group name="BIRDS" /> -->
+        <group name="BIRDS_FLYBY" maxNumInstances="1" />
+        <!-- <group name="WOODLANDS" maxNumInstances="1"/> -->
+    </groups>
+
+    <species>
+        <species filename="$data/animals/wildlife/species/crowFlyBy.xml" groups="BIRDS_FLYBY" />
+        <species filename="$data/animals/wildlife/species/storkFlyBy.xml" groups="BIRDS_FLYBY" />
+        <!-- <species filename="$data/animals/wildlife/species/crow.xml" groups="BIRDS" /> -->
+        <!-- <species filename="$data/animals/wildlife/species/deer.xml" groups="WOODLANDS" /> -->
+    </species>
+</wildlife>

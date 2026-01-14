@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="tavernFemale.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.9"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="countryGirlBody_diffuse.dds"/>
+    <File fileId="2" filename="countryGirlBody_normal.dds"/>
+    <File fileId="5" filename="countryGirlCloth_diffuse.dds"/>
+    <File fileId="6" filename="countryGirlCloth_normal.dds"/>
+    <File fileId="3" filename="countryGirlHair_diffuse.dds"/>
+    <File fileId="4" filename="countryGirlHair_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="countryGirl_mat" materialId="463">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+    </Material>
+    <Material name="countryGirlDetails_mat" materialId="464">
+      <Texture fileId="5"/>
+      <Normalmap fileId="6"/>
+    </Material>
+    <Material name="countryGirlHair_mat" materialId="465">
+      <Texture fileId="3"/>
+      <Normalmap fileId="4"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="tavernFemale.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="mixamorig:Hips" translation="0 1.00028 0.0210017" nodeId="14582">
+      <TransformGroup name="mixamorig:Spine" translation="0 0.0916518 -0.00888384" rotation="-5.53641 0 0" nodeId="14583">
+        <TransformGroup name="mixamorig:Spine1" translation="0 0.107428 9.11609e-11" rotation="-3.05423e-16 0 0" nodeId="14584">
+          <TransformGroup name="mixamorig:Spine2" translation="0 0.122775 5.84673e-10" rotation="4.24895e-07 0 0" nodeId="14585">
+            <TransformGroup name="mixamorig:Neck" translation="0 0.138122 -2.2616e-10" rotation="5.53641 0 0" nodeId="14586">
+              <TransformGroup name="mixamorig:Head" translation="0 0.119246 0.0361259" rotation="4.24895e-07 0 0" nodeId="14587">
+                <TransformGroup name="mixamorig:HeadTop_End" translation="0 0.200856 0.0608496" nodeId="14588"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="mixamorig:LeftShoulder" translation="0.0627295 0.117291 -0.00198146" rotation="-71.8061 88.1459 179.484" nodeId="14589">
+              <TransformGroup name="mixamorig:LeftArm" translation="1.18989e-10 0.133749 -1.96043e-09" rotation="48.093 10.8161 -2.82481e-06" nodeId="14590">
+                <TransformGroup name="mixamorig:LeftForeArm" translation="6.49497e-10 0.245238 1.49734e-09" rotation="-4.95641 -1.82589e-08 5.31426" nodeId="14591">
+                  <TransformGroup name="mixamorig:LeftHand" translation="1.04992e-09 0.235505 -3.45222e-09" rotation="1.98656 -7.40639 -4.92651" nodeId="14592">
+                    <TransformGroup name="mixamorig:LeftHandThumb1" translation="-0.0195993 0.0258508 0.0163415" rotation="26.7417 -3.62038e-06 38.4526" nodeId="14593">
+                      <TransformGroup name="mixamorig:LeftHandThumb2" translation="0.00058166 0.0290535 -4.32668e-11" rotation="2.8923 0 0" nodeId="14594">
+                        <TransformGroup name="mixamorig:LeftHandThumb3" translation="-1.40178e-05 0.0301278 4.37616e-10" rotation="-5.24494 0 0" nodeId="14595">
+                          <TransformGroup name="mixamorig:LeftHandThumb4" translation="-0.000567645 0.0263054 3.1642e-10" nodeId="14596"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="mixamorig:LeftHandIndex1" translation="-0.0301888 0.088001 0.000347063" rotation="18.0892 -1.34526e-07 13.8733" nodeId="14597">
+                      <TransformGroup name="mixamorig:LeftHandIndex2" translation="-1.1986e-05 0.0279293 4.23313e-10" rotation="-1.67244 0 0" nodeId="14598">
+                        <TransformGroup name="mixamorig:LeftHandIndex3" translation="0.000197713 0.0263799 3.61142e-11" rotation="-11.0588 0 0" nodeId="14599">
+                          <TransformGroup name="mixamorig:LeftHandIndex4" translation="-0.000185726 0.023425 -4.89639e-11" rotation="2.1049e-06 -0 0" nodeId="14600"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="mixamorig:LeftHandMiddle1" translation="-0.00945185 0.0941366 -0.000707494" rotation="-2.97502 1.74361e-08 2.89089" nodeId="14601">
+                      <TransformGroup name="mixamorig:LeftHandMiddle2" translation="-3.16804e-05 0.0292125 -3.75514e-10" rotation="5.47011 0 0" nodeId="14602">
+                        <TransformGroup name="mixamorig:LeftHandMiddle3" translation="0.000212448 0.0287541 8.34812e-10" rotation="-9.60095 0 0" nodeId="14603">
+                          <TransformGroup name="mixamorig:LeftHandMiddle4" translation="-0.000180768 0.025794 -2.10974e-09" rotation="-2.81094e-06 0 0" nodeId="14604"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="mixamorig:LeftHandRing1" translation="0.0118375 0.101368 -0.00292654" rotation="3.69902 1.33697e-08 -2.14129" nodeId="14605">
+                      <TransformGroup name="mixamorig:LeftHandRing2" translation="4.21701e-05 0.0235955 -7.75325e-11" rotation="-1.62735 0 0" nodeId="14606">
+                        <TransformGroup name="mixamorig:LeftHandRing3" translation="-2.89049e-05 0.0226916 -7.3117e-10" rotation="0.40447 0 0" nodeId="14607">
+                          <TransformGroup name="mixamorig:LeftHandRing4" translation="-1.32652e-05 0.0192982 -9.44931e-10" rotation="-2.05755e-06 0 0" nodeId="14608"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="mixamorig:LeftHandPinky1" translation="0.0278032 0.0790835 0.00283235" rotation="6.68427 2.49562e-07 -17.6334" nodeId="14609">
+                      <TransformGroup name="mixamorig:LeftHandPinky2" translation="-4.20734e-05 0.0259075 4.107e-10" rotation="3.31652 0 0" nodeId="14610">
+                        <TransformGroup name="mixamorig:LeftHandPinky3" translation="-2.06701e-05 0.0218611 -3.3256e-10" rotation="-2.74894 0 0" nodeId="14611">
+                          <TransformGroup name="mixamorig:LeftHandPinky4" translation="6.27408e-05 0.019773 -1.02143e-09" rotation="-2.49807e-06 0 0" nodeId="14612"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="mixamorig:RightShoulder" translation="-0.0627295 0.117298 -0.00205612" rotation="-71.7953 -88.0877 -179.511" nodeId="14613">
+              <TransformGroup name="mixamorig:RightArm" translation="-1.22736e-10 0.133749 -1.962e-09" rotation="48.0753 -10.4891 2.28047e-07" nodeId="14614">
+                <TransformGroup name="mixamorig:RightForeArm" translation="-2.09118e-09 0.245179 -1.16532e-09" rotation="-4.91233 -3.44873e-06 -4.99686" nodeId="14615">
+                  <TransformGroup name="mixamorig:RightHand" translation="-1.72724e-09 0.235489 1.4419e-09" rotation="2.57934 7.5787 5.60761" nodeId="14616">
+                    <TransformGroup name="mixamorig:RightHandThumb1" translation="0.0195095 0.025551 0.0159364" rotation="26.3974 2.31317e-06 -40.2315" nodeId="14617">
+                      <TransformGroup name="mixamorig:RightHandThumb2" translation="-0.00128676 0.0286759 -6.1475e-11" rotation="3.30382 0 0" nodeId="14618">
+                        <TransformGroup name="mixamorig:RightHandThumb3" translation="-0.000956341 0.0306795 -2.34267e-10" rotation="-5.20977 0 0" nodeId="14619">
+                          <TransformGroup name="mixamorig:RightHandThumb4" translation="0.00224309 0.0267952 1.0714e-10" nodeId="14620"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="mixamorig:RightHandIndex1" translation="0.0308499 0.0854485 0.000501" rotation="16.1034 -5.19498e-08 -12.9369" nodeId="14621">
+                      <TransformGroup name="mixamorig:RightHandIndex2" translation="8.65867e-05 0.0288235 1.41882e-10" rotation="-2.14241 0 0" nodeId="14622">
+                        <TransformGroup name="mixamorig:RightHandIndex3" translation="0.000116166 0.0271182 1.44189e-10" rotation="-1.70879 0 0" nodeId="14623">
+                          <TransformGroup name="mixamorig:RightHandIndex4" translation="-0.000202752 0.0239289 2.21012e-11" nodeId="14624"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="mixamorig:RightHandMiddle1" translation="0.0103195 0.0915232 -0.00101017" rotation="-4.20324 2.70454e-09 -3.97689" nodeId="14625">
+                      <TransformGroup name="mixamorig:RightHandMiddle2" translation="0.0001808 0.0303356 -1.16804e-09" rotation="6.00748 0 0" nodeId="14626">
+                        <TransformGroup name="mixamorig:RightHandMiddle3" translation="-0.000103291 0.0290005 7.13239e-10" rotation="-0.74511 0 0" nodeId="14627">
+                          <TransformGroup name="mixamorig:RightHandMiddle4" translation="-7.751e-05 0.0235401 -3.94718e-10" rotation="-1.22848e-06 0 0" nodeId="14628"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="mixamorig:RightHandRing1" translation="-0.0109734 0.0960903 -0.00325892" rotation="2.20873 3.06408e-07 -0.262508" nodeId="14629">
+                      <TransformGroup name="mixamorig:RightHandRing2" translation="-0.000112515 0.0266379 -2.46071e-10" rotation="-2.41602 0 0" nodeId="14630">
+                        <TransformGroup name="mixamorig:RightHandRing3" translation="-1.62004e-05 0.0234537 3.64735e-10" rotation="-4.71399 0 0" nodeId="14631">
+                          <TransformGroup name="mixamorig:RightHandRing4" translation="0.000128715 0.0204243 3.61883e-10" nodeId="14632"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="mixamorig:RightHandPinky1" translation="-0.030196 0.0859115 0.00279618" rotation="5.62833 2.02833e-06 12.3987" nodeId="14633">
+                      <TransformGroup name="mixamorig:RightHandPinky2" translation="-6.2443e-05 0.0230503 -1.0411e-11" rotation="4.33155 0 0" nodeId="14634">
+                        <TransformGroup name="mixamorig:RightHandPinky3" translation="-9.01527e-05 0.0192659 2.56994e-10" rotation="-8.82418 0 0" nodeId="14635">
+                          <TransformGroup name="mixamorig:RightHandPinky4" translation="0.000152595 0.0165262 6.85414e-11" nodeId="14636"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="mixamorig:LeftUpLeg" translation="0.0953248 -0.0509127 -0.00667837" rotation="-3.95774 0.109064 -178.424" nodeId="14637">
+        <TransformGroup name="mixamorig:LeftLeg" translation="1.53029e-10 0.473548 7.24606e-10" rotation="4.22547 1.3322e-08 3.14339" nodeId="14638">
+          <TransformGroup name="mixamorig:LeftFoot" translation="1.10404e-09 0.425691 -3.82722e-11" rotation="55.4238 -7.3442 6.7957e-07" nodeId="14639">
+            <TransformGroup name="mixamorig:LeftToeBase" translation="1.44424e-09 0.0960147 1.63485e-09" rotation="36.4385 -7.16407 1.43652e-06" nodeId="14640">
+              <TransformGroup name="mixamorig:LeftToe_End" translation="-1.89878e-10 0.0475546 -3.59224e-11" nodeId="14641"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="mixamorig:RightUpLeg" translation="-0.0953248 -0.0509127 -0.00205737" rotation="-4.34968 -0.119785 178.426" nodeId="14642">
+        <TransformGroup name="mixamorig:RightLeg" translation="-4.61681e-10 0.473783 6.8378e-10" rotation="1.96892 7.8564e-10 -3.13013" nodeId="14643">
+          <TransformGroup name="mixamorig:RightFoot" translation="5.20342e-10 0.42605 -1.08253e-10" rotation="63.1747 5.95511 9.46908e-08" nodeId="14644">
+            <TransformGroup name="mixamorig:RightToeBase" translation="-1.29717e-09 0.110969 1.54117e-09" rotation="31.5702 11.0261 1.46679e-06" nodeId="14645">
+              <TransformGroup name="mixamorig:RightToe_End" translation="2.34392e-10 0.0472837 7.44654e-12" nodeId="14646"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+    <Shape name="country_girl_mesh" shapeId="1" nodeId="14647" castsShadows="true" receiveShadows="true" skinBindNodeIds="14586 14587 14634 14635 14633 14615 14616 14621 14617 14614 14629 14630 14625 14626 14622 14618 14619 14585 14613 14584 14631 14627 14623 14592 14593 14594 14597 14601 14595 14591 14609 14610 14605 14606 14607 14602 14603 14598 14611 14590 14589 14599 14637 14582 14642 14638 14639 14640 14643 14644 14645" materialIds="463">
+      <Shape name="countryGirl_hair" shapeId="2" nodeId="14648" castsShadows="true" receiveShadows="true" skinBindNodeIds="14586 14587 14585 14589 14613 14614" materialIds="465"/>
+      <Shape name="countryGirl_details" shapeId="3" nodeId="14649" castsShadows="true" receiveShadows="true" skinBindNodeIds="14643 14645 14644 14638 14639 14640 14584 14585 14613 14614 14586 14587 14591 14589 14590 14592 14637 14582 14583 14642 14615 14618 14619 14594 14595 14626 14627 14602 14603 14630 14631 14606 14607 14634 14635 14611 14622 14623 14599" materialIds="464"/>
+    </Shape>
+  </Scene>
+
+
+  <Animation externalAnimFile="tavernFemale.i3d.anim" />
+  <UserAttributes>
+    <UserAttribute nodeId="14582">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14583">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14584">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14585">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14586">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14587">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14589">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14590">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14591">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14592">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14593">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14594">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14595">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14597">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14598">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14599">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14601">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14602">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14603">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14605">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14606">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14607">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14609">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14610">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14611">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14613">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14614">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14615">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14616">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14617">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14618">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14619">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14621">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14622">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14623">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14625">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14626">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14627">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14629">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14630">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14631">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14633">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14634">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14635">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14637">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14638">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14639">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14640">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14642">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14643">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14644">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+    <UserAttribute nodeId="14645">
+      <Attribute name="liw" type="boolean" value="false"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

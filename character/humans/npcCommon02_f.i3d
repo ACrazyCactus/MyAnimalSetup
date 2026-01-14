@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="npcCommon02_f.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.9"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/characterShader.xml"/>
+    <File fileId="22" filename="$data/shaders/hairShader.xml"/>
+    <File fileId="15" filename="botJeanCapris_diffuse.png"/>
+    <File fileId="18" filename="botJeanCapris_mask.png"/>
+    <File fileId="16" filename="botJeanCapris_normal.png"/>
+    <File fileId="17" filename="botJeanCapris_specular.png"/>
+    <File fileId="24" filename="eyeGloss_diffuse.png"/>
+    <File fileId="25" filename="eyeGloss_normal.png"/>
+    <File fileId="26" filename="eyeGloss_specular.png"/>
+    <File fileId="27" filename="eyeLashesCards_diffuse.png"/>
+    <File fileId="28" filename="eyeLashesCards_normal.png"/>
+    <File fileId="29" filename="eyeLashesCards_specular.png"/>
+    <File fileId="7" filename="femBody01_diffuse.png"/>
+    <File fileId="10" filename="femBody01_mask.png"/>
+    <File fileId="8" filename="femBody01_normal.png"/>
+    <File fileId="9" filename="femBody01_specular.png"/>
+    <File fileId="33" filename="femHead00_mask.png"/>
+    <File fileId="32" filename="femHead00_specular.png"/>
+    <File fileId="30" filename="femHead16_diffuse.png"/>
+    <File fileId="31" filename="femHead16_normal.png"/>
+    <File fileId="1" filename="glassesAlpha_diffuse.png"/>
+    <File fileId="5" filename="glasses_mask.png"/>
+    <File fileId="2" filename="glasses_normal.png"/>
+    <File fileId="3" filename="glasses_specular.png"/>
+    <File fileId="23" filename="hair_cube.dds"/>
+    <File fileId="19" filename="hair_f_diffuse.png"/>
+    <File fileId="20" filename="hair_f_normal.png"/>
+    <File fileId="21" filename="hair_f_specular.png"/>
+    <File fileId="11" filename="topTankTopF_diffuse.png"/>
+    <File fileId="12" filename="topTankTopF_normal.png"/>
+    <File fileId="14" filename="topTankTop_mask.png"/>
+    <File fileId="13" filename="topTankTop_specular.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="botJeanCapris_mat" materialId="5" customShaderId="4">
+      <Texture fileId="15"/>
+      <Normalmap fileId="16"/>
+      <Glossmap fileId="17"/>
+      <Custommap name="mMaskMap" fileId="18"/>
+      <CustomParameter name="sssColor" value="1 1 1 1"/>
+      <CustomParameter name="colorScaleR" value="0.15 0.15 0.2 1"/>
+      <CustomParameter name="colorScaleG" value="0.8 0.6 0.44 1"/>
+    </Material>
+    <Material name="eyeGloss_mat" materialId="6" alphaBlending="true">
+      <Texture fileId="24"/>
+      <Normalmap fileId="25"/>
+      <Glossmap fileId="26"/>
+    </Material>
+    <Material name="eyeLashesCards_mat" materialId="7" alphaBlending="true">
+      <Texture fileId="27"/>
+      <Normalmap fileId="28"/>
+      <Glossmap fileId="29"/>
+    </Material>
+    <Material name="femBody01_mat" materialId="8" customShaderId="4">
+      <Texture fileId="7"/>
+      <Normalmap fileId="8"/>
+      <Glossmap fileId="9"/>
+      <Custommap name="mMaskMap" fileId="10"/>
+      <CustomParameter name="colorScaleR" value="0.7 0.55 0.55 1"/>
+    </Material>
+    <Material name="femHead16_mat" materialId="9" customShaderId="4">
+      <Texture fileId="30"/>
+      <Normalmap fileId="31"/>
+      <Glossmap fileId="32"/>
+      <Custommap name="mMaskMap" fileId="33"/>
+      <CustomParameter name="colorScaleR" value="0.7 0.55 0.55 1"/>
+      <CustomParameter name="colorScaleG" value="1 1 1 1"/>
+    </Material>
+    <Material name="glassesAlpha_mat" materialId="10" alphaBlending="true" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+      <CustomParameter name="sssColor" value="0.8 0.8 0.8 1"/>
+    </Material>
+    <Material name="glassesAlpha_mat1" materialId="11" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+      <Custommap name="mMaskMap" fileId="5"/>
+      <CustomParameter name="sssColor" value="0.8 0.8 0.8 1"/>
+    </Material>
+    <Material name="hair_f_mat" materialId="168" customShaderId="22">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+      <CustomParameter name="primaryColor" value="0.251 0.185 0.097"/>
+    </Material>
+    <Material name="hair_f_mat" materialId="164" customShaderId="22">
+      <Texture fileId="19"/>
+      <Normalmap fileId="20"/>
+      <Glossmap fileId="21"/>
+      <Custommap name="fakeSpecCubeMap" fileId="23"/>
+      <CustomParameter name="primaryColor" value="0.251 0.185 0.097"/>
+    </Material>
+    <Material name="topTankTopF_mat" materialId="13" customShaderId="4">
+      <Texture fileId="11"/>
+      <Normalmap fileId="12"/>
+      <Glossmap fileId="13"/>
+      <Custommap name="mMaskMap" fileId="14"/>
+      <CustomParameter name="sssColor" value="1 1 1 1"/>
+      <CustomParameter name="colorScaleR" value="0.13 0.15 0.13 1"/>
+      <CustomParameter name="colorScaleG" value="1 1 1 1"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="npcCommon02_f.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="root" nodeId="35">
+      <TransformGroup name="Hips" translation="0 0.967506 0" rotation="-90 -0 90" nodeId="36">
+        <TransformGroup name="Spine" translation="0.108057 -0.008907 0" rotation="0 0 -4.71218" nodeId="37">
+          <TransformGroup name="Spine1" translation="0.114443 0.015546 0" rotation="0 -0 7.64629" nodeId="38">
+            <TransformGroup name="Spine2" translation="0.145721 -0.000638 0" rotation="0 0 -2.46625" nodeId="39">
+              <TransformGroup name="Neck" translation="0.199557 -0 -0" rotation="0 0 -2.80482" nodeId="40">
+                <TransformGroup name="Head" translation="0.092908 0 0" rotation="0 -0 2.33696" nodeId="41">
+                  <TransformGroup name="Jaw" translation="0.020947 -0.032582 0" rotation="-180 -0 60.7045" nodeId="42"/>
+                  <TransformGroup name="LeftEye" translation="0.08378 -0.094879 -0.033" rotation="-0.001115 1.99906 -90.032" nodeId="43"/>
+                  <TransformGroup name="RightEye" translation="0.083779 -0.094879 0.033042" rotation="-0.001115 1.99906 89.968" nodeId="44"/>
+                  <TransformGroup name="LeftUpEyelid" translation="0.082939 -0.092568 -0.032682" rotation="0 0 -72.8739" nodeId="45"/>
+                  <TransformGroup name="LeftLowEyelid" translation="0.08378 -0.094879 -0.033" rotation="0 0 -115.759" nodeId="46"/>
+                  <TransformGroup name="RightLowEyelid" translation="0.08378 -0.094879 0.033" rotation="0 -0 64.2411" nodeId="47"/>
+                  <TransformGroup name="RightUpEyelid" translation="0.082939 -0.092568 0.032682" rotation="0 -0 107.126" nodeId="48"/>
+                  <TransformGroup name="glassesReading" translation="-1.62884 -0.001847 -0" rotation="90 90 0" clipDistance="300" nodeId="49">
+                    <Shape name="frame" shapeId="1" clipDistance="300" nodeId="50" castsShadows="true" receiveShadows="true" materialIds="11"/>
+                    <Shape name="glass_l" shapeId="2" clipDistance="300" nodeId="51" castsShadows="true" receiveShadows="true" materialIds="10"/>
+                    <Shape name="glass_r" shapeId="3" clipDistance="300" nodeId="52" castsShadows="true" receiveShadows="true" materialIds="10"/>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="LeftShoulder" translation="0.156931 -0.061575 -0.051732" rotation="-170.627 60.4206 100.279" nodeId="53">
+                <TransformGroup name="LeftArm" translation="0.16969 -0 -0" rotation="0.819951 -22.7162 3.15877" nodeId="54">
+                  <TransformGroup name="LeftForeArm" translation="0.283483 0 -0" rotation="0.487568 -13.6462 -0.108006" nodeId="55">
+                    <TransformGroup name="LeafLeftForeArmRoll1" translation="0.13081 -0.004099 0.004631" rotation="-0.09418 2.71987 1.2623" nodeId="56"/>
+                    <TransformGroup name="LeftHand" translation="0.261126 0 -0" rotation="-0.148166 2.39895 2.29176" nodeId="57">
+                      <TransformGroup name="LeftHandPinky1" translation="0.079008 0.004247 -0.035306" rotation="-2.85931 17.0089 -10.4893" nodeId="58">
+                        <TransformGroup name="LeftHandPinky2" translation="0.034062 0 0" rotation="0.24313 -1.1964 -1.68612" nodeId="59">
+                          <TransformGroup name="LeftHandPinky3" translation="0.017529 0 0" rotation="-0.025165 -1.3e-05 9e-05" nodeId="60"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="LeftHandRing1" translation="0.094731 0.008891 -0.018853" rotation="-0.950313 8.53073 -7.72504" nodeId="61">
+                        <TransformGroup name="LeftHandRing2" translation="0.037846 0 0" rotation="-0.172229 1.57682 1.14786" nodeId="62">
+                          <TransformGroup name="LeftHandRing3" translation="0.029509 0 0" rotation="-0.008394 -2e-06 0.000231" nodeId="63"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="LeftHandMiddle1" translation="0.098236 0.011038 0.002091" rotation="0.029132 1.99913 -4.03912" nodeId="64">
+                        <TransformGroup name="LeftHandMiddle2" translation="0.04379 0 0" rotation="0.066963 -0.788349 -1.09689" nodeId="65">
+                          <TransformGroup name="LeftHandMiddle3" translation="0.02758 0 0" rotation="0.016823 1e-06 -8.7e-05" nodeId="66"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="LeftHandIndex1" translation="0.094517 0.010557 0.024015" rotation="1.31686 -5.42156 -12.3194" nodeId="67">
+                        <TransformGroup name="LeftHandIndex2" translation="0.038609 0 0" rotation="-0.101899 0.719663 3.90585" nodeId="68">
+                          <TransformGroup name="LeftHandIndex3" translation="0.02307 0 0" rotation="0 -7e-06 -0.00015" nodeId="69"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="LeftHandThumb1" translation="0.027992 -0.01419 0.026464" rotation="81.7982 -48.9644 -3.78067" nodeId="70">
+                        <TransformGroup name="LeftHandThumb2" translation="0.04093 -0 0" rotation="0 0 -21.1791" nodeId="71">
+                          <TransformGroup name="LeftHandThumb3" translation="0.03205 0 -0.001322" rotation="-0.512319 0 0" nodeId="72"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="RightShoulder" translation="0.156934 -0.061575 0.051732" rotation="9.37265 119.579 100.279" nodeId="73">
+                <TransformGroup name="RightArm" translation="-0.16969 1e-06 0" rotation="0.819951 -22.7162 3.15877" nodeId="74">
+                  <TransformGroup name="RightForeArm" translation="-0.283484 5e-06 -0" rotation="0.487568 -13.6462 -0.108006" nodeId="75">
+                    <TransformGroup name="LeafRightForeArmRoll1" translation="-0.130809 0.00409 -0.004631" rotation="-0.09418 2.71987 1.2623" nodeId="76"/>
+                    <TransformGroup name="RightHand" translation="-0.261125 -7e-06 -0" rotation="179.779 12.0784 1.71693" nodeId="77">
+                      <TransformGroup name="RightHandPinky1" translation="-0.083777 0.005016 -0.02152" rotation="178.865 -7.47516 9.58134" nodeId="78">
+                        <TransformGroup name="RightHandPinky2" translation="-0.034062 1e-06 0" rotation="0.24313 -1.1964 -1.68612" nodeId="79">
+                          <TransformGroup name="RightHandPinky3" translation="-0.01753 -1e-06 -0" rotation="0.025165 -0 0" nodeId="80"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="RightHandRing1" translation="-0.096466 0.009786 -0.002661" rotation="-179.7 1.06988 7.10236" nodeId="81">
+                        <TransformGroup name="RightHandRing2" translation="-0.037846 -3e-06 -0" rotation="-0.172229 1.57682 1.14786" nodeId="82">
+                          <TransformGroup name="RightHandRing3" translation="-0.029509 -3e-06 -0" rotation="0.008397 -0 0" nodeId="83"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="RightHandMiddle1" translation="-0.096378 0.011956 0.018572" rotation="-179.332 7.66101 3.52975" nodeId="84">
+                        <TransformGroup name="RightHandMiddle2" translation="-0.043789 -0 -0" rotation="0.066963 -0.788349 -1.09689" nodeId="85">
+                          <TransformGroup name="RightHandMiddle3" translation="-0.027582 6e-06 0" rotation="0.016823 -0 0" nodeId="86"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="RightHandIndex1" translation="-0.08903 0.011421 0.039558" rotation="-176.602 14.884 12.1466" nodeId="87">
+                        <TransformGroup name="RightHandIndex2" translation="-0.038608 -4e-06 0" rotation="-0.101899 0.719663 3.90585" nodeId="88">
+                          <TransformGroup name="RightHandIndex3" translation="-0.023071 6e-06 -0" rotation="0.00015 -0 0" nodeId="89"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="RightHandThumb1" translation="-0.023275 -0.013951 0.030806" rotation="-97.0688 58.6227 4.15717" nodeId="90">
+                        <TransformGroup name="RightHandThumb2" translation="-0.04093 -1e-06 3e-06" rotation="0 0 -21.1791" nodeId="91">
+                          <TransformGroup name="RightHandThumb3" translation="-0.032051 1e-06 0.001316" rotation="-0.512319 0 0" nodeId="92"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="LeftUpLeg" translation="-0.035407 0.031989 -0.102368" rotation="0 0 -175.409" nodeId="93">
+          <TransformGroup name="LeftLeg" translation="0.415006 0 0" rotation="0 0 -11.5231" nodeId="94">
+            <TransformGroup name="LeftFoot" translation="0.419917 0 0" rotation="0.254762 0.141315 67.9151" nodeId="95">
+              <TransformGroup name="LeftToeBase" translation="0.134203 0 0" rotation="0.163861 0.028114 19.2815" nodeId="96"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="RightUpLeg" translation="-0.035407 0.031989 0.102368" rotation="0 -0 4.59122" nodeId="97">
+          <TransformGroup name="RightLeg" translation="-0.415007 -0 0" rotation="0 0 -11.5231" nodeId="98">
+            <TransformGroup name="RightFoot" translation="-0.419916 0 0" rotation="0.254762 0.141315 67.9151" nodeId="99">
+              <TransformGroup name="RightToeBase" translation="-0.134203 -0 -0" rotation="0.163861 0.028114 19.2815" nodeId="100"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="npcCommon02_f" lodDistance="0 12" clipDistance="100" nodeId="101">
+      <TransformGroup name="LOD0" nodeId="102">
+        <Shape name="body_LOD0" shapeId="4" clipDistance="300" nodeId="103" castsShadows="true" receiveShadows="true" skinBindNodeIds="37 38 39 40 41 42 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100" materialIds="8"/>
+        <Shape name="topTankTopF_LOD0" shapeId="5" clipDistance="300" nodeId="104" castsShadows="true" receiveShadows="true" skinBindNodeIds="35 36 37 38 39 40 42 53 54 55 56 73 74 75 76 93 94 95 97 98 99" materialIds="13"/>
+        <Shape name="female_sandal_01_LOD0" shapeId="6" clipDistance="300" nodeId="105" castsShadows="true" receiveShadows="true" skinBindNodeIds="35 93 94 95 96 98 99 100" materialIds="5"/>
+        <Shape name="jeansCapris_LOD0" shapeId="7" clipDistance="300" nodeId="106" castsShadows="true" receiveShadows="true" skinBindNodeIds="35 36 37 42 56 76 93 94 95 96 97 98 99 100" materialIds="5"/>
+        <Shape name="hairStyleBehindEars_LOD0" translation="-0.000109 1.69124 0.005602" shapeId="8" clipDistance="300" nodeId="107" castsShadows="true" receiveShadows="true" skinBindNodeIds="40 41 39" materialIds="164"/>
+        <TransformGroup name="fem_16_head" clipDistance="160" nodeId="108">
+          <Shape name="eye_gloss_LOD0" shapeId="9" clipDistance="300" nodeId="109" castsShadows="true" receiveShadows="true" skinBindNodeIds="41 43 44 45 46 47 48" materialIds="6"/>
+          <Shape name="eye_shade_l_LOD0" shapeId="10" clipDistance="300" nodeId="110" castsShadows="true" receiveShadows="true" skinBindNodeIds="41 43 45 46" materialIds="7"/>
+          <Shape name="eye_shade_r_LOD0" shapeId="11" clipDistance="300" nodeId="111" castsShadows="true" receiveShadows="true" skinBindNodeIds="41 44 47 48" materialIds="7"/>
+          <Shape name="fem_16_head_LOD0" shapeId="12" clipDistance="300" nodeId="112" castsShadows="true" receiveShadows="true" skinBindNodeIds="39 40 41 42 43 44 45 46 47 48 53 54 73 74" materialIds="9"/>
+          <Shape name="eye_lash_l_LOD0" shapeId="13" clipDistance="300" nodeId="113" castsShadows="true" receiveShadows="true" skinBindNodeIds="41 43 45 46" materialIds="7"/>
+          <Shape name="eye_lash_r_LOD0" shapeId="14" clipDistance="300" nodeId="114" castsShadows="true" receiveShadows="true" skinBindNodeIds="41 44 47 48" materialIds="7"/>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="LOD1" nodeId="115">
+        <Shape name="body_LOD1" shapeId="15" clipDistance="300" nodeId="116" castsShadows="true" receiveShadows="true" skinBindNodeIds="35 37 38 39 40 41 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100" materialIds="8"/>
+        <Shape name="topTankTopF_LOD1" shapeId="16" clipDistance="300" nodeId="117" castsShadows="true" receiveShadows="true" skinBindNodeIds="35 36 37 38 39 40 41 53 54 73 74 93 97" materialIds="13"/>
+        <Shape name="female_sandal_01_LOD1" shapeId="17" clipDistance="300" nodeId="118" castsShadows="true" receiveShadows="true" skinBindNodeIds="35 94 95 96 98 99 100" materialIds="5"/>
+        <Shape name="jeansCapris_LOD1" shapeId="18" clipDistance="300" nodeId="119" castsShadows="true" receiveShadows="true" skinBindNodeIds="35 36 37 93 94 95 97 98 99" materialIds="5"/>
+        <Shape name="hairStyleBehindEars_LOD1" translation="-0.000109 1.69124 0.005602" shapeId="19" clipDistance="300" nodeId="120" castsShadows="true" receiveShadows="true" skinBindNodeIds="40 41 39" materialIds="168"/>
+        <TransformGroup name="fem_16_head" clipDistance="160" nodeId="121">
+          <Shape name="fem_16_head_LOD1" shapeId="20" clipDistance="300" nodeId="122" castsShadows="true" receiveShadows="true" skinBindNodeIds="39 40 41 42 43 44 45 46 47 48 53 54 73 74" materialIds="9"/>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+    <TransformGroup name="animationRootNode" nodeId="123"/>
+  </Scene>
+
+</i3D>

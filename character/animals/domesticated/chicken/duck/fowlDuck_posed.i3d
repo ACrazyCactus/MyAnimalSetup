@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="fowlDuck_posed.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/tileAndMirrorShader.xml"/>
+    <File fileId="1" filename="duck_diffuse.dds"/>
+    <File fileId="2" filename="duck_normal.dds"/>
+    <File fileId="3" filename="duck_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="MaterialFBXASC032FBXASC03527" materialId="12" customShaderId="4" customShaderVariation="dirtEnabled">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2" bumpDepth="0.3"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="fowlDuck_posed.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="duck_mesh" shapeId="1" clipDistance="300" nodeId="8" castsShadows="true" receiveShadows="true" materialIds="12"/>
+  </Scene>
+
+</i3D>

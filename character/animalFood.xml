@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<animalFood>
+	<animals>
+		<animal animalType="COW" consumptionType="SERIAL">
+			<foodGroup title="$l10n_fillTypeGroup_cowForage" 	productionWeight="1.00" 	fillTypes="FORAGE ROUNDBALE"/>
+			<foodGroup title="$l10n_fillTypeGroup_cowHay" 		productionWeight="0.80" 	fillTypes="DRYGRASS_WINDROW SILAGE"/>
+			<!-- <foodGroup title="$l10n_fillTypeGroup_cowSilage"	productionWeight="0.80" 	fillTypes="SILAGE"/> -->
+			<foodGroup title="$l10n_fillTypeGroup_cowGrass"		productionWeight="0.40"     fillTypes="GRASS_WINDROW CLOVER_WINDROW"/>
+			<foodGroup title="$l10n_fillTypeGroup_cowEarth"   	productionWeight="0.85"     fillTypes="BEETROOT"/>
+			<foodGroup title="$l10n_fillTypeGroup_cowSpecial"   productionWeight="1.20"     fillTypes="CALFMILK"/>
+		</animal>
+		
+		<animal animalType="SHEEP" consumptionType="SERIAL">
+			<foodGroup title="$l10n_fillTypeGroup_sheepGrass" 	productionWeight="1.00"     fillTypes="GRASS_WINDROW DRYGRASS_WINDROW CLOVER_WINDROW"/>
+		</animal>
+		
+		<animal animalType="PIG" consumptionType="SERIAL">
+			<foodGroup title="$l10n_fillTypeGroup_pigBase"		productionWeight="1.00"     fillTypes="PIGFOOD PIGFOOD_SLOP"/>
+			<foodGroup title="$l10n_fillTypeGroup_pigGrain"    	productionWeight="0.60"     fillTypes="WHEAT BARLEY MAIZE SORGHUM CANOLA SUNFLOWER GRAINGRIST"/>
+			<foodGroup title="$l10n_fillTypeGroup_pigProtein"  	productionWeight="0.80"	    fillTypes="SOYBEAN SPENTGRAIN"/>
+			<foodGroup title="$l10n_fillTypeGroup_pigEarth"    	productionWeight="0.60"     fillTypes="POTATO SUGARBEET SUGARBEET_CUT CARROT PARSNIP BEETROOT"/>
+			<foodGroup title="$l10n_fillTypeGroup_pigletFood"  	productionWeight="2.00"     fillTypes="PIGLETFOOD"/>
+		</animal>
+		
+		<!-- <animal animalType="PIG" consumptionType="PARALLEL">
+			<foodGroup title="$l10n_fillTypeGroup_pigBase"		productionWeight="0.50"     eatWeight="0.50"   fillTypes="MAIZE SORGHUM"/>
+			<foodGroup title="$l10n_fillTypeGroup_pigGrain"    	productionWeight="0.25"     eatWeight="0.25"   fillTypes="WHEAT BARLEY"/>
+			<foodGroup title="$l10n_fillTypeGroup_pigProtein"  	productionWeight="0.20"	    eatWeight="0.20"   fillTypes="SOYBEAN CANOLA SUNFLOWER"/>
+			<foodGroup title="$l10n_fillTypeGroup_pigEarth"    	productionWeight="0.05"     eatWeight="0.05"   fillTypes="POTATO SUGARBEET CARROT PARSNIP BEETROOT"/>
+		</animal> -->
+		
+		<animal animalType="HORSE" consumptionType="SERIAL">
+			<foodGroup title="$l10n_fillTypeGroup_bulk"	    productionWeight="1.00"  fillTypes="OAT SORGHUM"/>
+			<foodGroup title="$l10n_fillTypeGroup_hay"      productionWeight="1.00"  fillTypes="GRASS_WINDROW DRYGRASS_WINDROW"/>
+			<foodGroup title="$l10n_fillTypeGroup_earth"    productionWeight="0.60"  fillTypes="CARROT PARSNIP BEETROOT"/>
+		</animal>
+
+		<animal animalType="CHICKEN" consumptionType="SERIAL">
+			<foodGroup title="$l10n_fillTypeGroup_chickenGrain"    productionWeight="1.00"     fillTypes="WHEAT BARLEY MAIZE SORGHUM"/>
+		</animal>
+		
+		<animal animalType="DUCKWILD" consumptionType="SERIAL">
+			<foodGroup title="$l10n_fillTypeGroup_chickenGrain"    productionWeight="1.00"     fillTypes="WHEAT BARLEY MAIZE SORGHUM"/>
+		</animal>
+		
+		<animal animalType="RABBIT" consumptionType="PARALLEL">
+            <foodGroup title="$l10n_fillTypeGroup_hay"   	 		 productionWeight="0.60" eatWeight="0.60" fillTypes="DRYGRASS_WINDROW" />
+            <foodGroup title="$l10n_fillTypeGroup_fruitVegetables"   productionWeight="0.40" eatWeight="0.40" fillTypes="LETTUCE CARROT" />
+        </animal>
+	
+		<animal animalType="GOOSE" consumptionType="SERIAL">
+			<foodGroup title="$l10n_fillTypeGroup_gooseProtein" productionWeight="1.00" fillTypes="OAT"/>
+			<foodGroup title="$l10n_fillTypeGroup_gooseGrain" 	productionWeight="0.80" fillTypes="WHEAT BARLEY MAIZE SORGHUM"/>
+		</animal>
+		
+		<animal animalType="CAT" consumptionType="SERIAL">
+            <foodGroup title="$l10n_fillTypeGroup_base"   productionWeight="1.00" fillTypes="CATFOOD CHICKS" />
+        </animal>
+	</animals>
+	
+	<mixtures>
+		<!-- <mixture animalType="PIG" fillType="PIGFOOD">
+			<ingredient fillTypes="MAIZE SORGHUM"		  							weight="0.5"/>
+			<ingredient fillTypes="WHEAT BARLEY"   									weight="0.25"/>
+			<ingredient fillTypes="SOYBEAN CANOLA SUNFLOWER"    					weight="0.2"/>
+			<ingredient fillTypes="POTATO SUGARBEET CARROT PARSNIP BEETROOT"     	weight="0.05"/>
+		</mixture> -->
+		<!-- <mixture animalType="PIG" fillType="PIGFOOD">
+			<ingredient fillTypes="POTATO"		weight="0.7"/>
+			<ingredient fillTypes="GRAINGRIST"	weight="0.3"/>
+		</mixture> -->
+	</mixtures>
+	
+	<recipes>
+		<recipe fillType="FORAGE">
+			<ingredient name="dryGrass" title="$l10n_fillType_dryGrass" fillTypes="DRYGRASS_WINDROW" minPercentage="20" maxPercentage="75"/>
+			<ingredient name="silage"   title="$l10n_fillType_silage"   fillTypes="SILAGE"           minPercentage="20" maxPercentage="75"/>
+			<ingredient name="straw"    title="$l10n_fillType_straw"    fillTypes="STRAW"	         minPercentage="0"  maxPercentage="30"/>
+			<!-- <ingredient name="mineralFeed" title="$l10n_fillType_mineralFeed" fillTypes="MINERAL_FEED" minPercentage="0" maxPercentage="7"/> -->
+		</recipe>
+	</recipes>
+</animalFood>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="foal.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.6"/>
+  </Asset>
+
+  <Files>
+    <File fileId="4" filename="$data/shaders/tileAndMirrorShader.xml"/>
+    <File fileId="1" filename="foal_diffuse.dds"/>
+    <File fileId="2" filename="foal_normal.dds"/>
+    <File fileId="3" filename="foal_specular.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="foal_mat" materialId="5" customShaderId="4">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="1 1 1 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="foal.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <Shape name="Horse_foal_LOD0" shapeId="1" clipDistance="150" nodeId="10" castsShadows="true" receiveShadows="true" skinBindNodeIds="12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47" materialIds="5">
+      <TransformGroup name="skeleton" nodeId="11">
+        <TransformGroup name="skeleton" translation="7.56162e-10 0.873316 0.00864951" rotation="1.27222e-14 5.00896e-06 2.22442e-21" nodeId="12">
+          <TransformGroup name="Spine_04" translation="2.42992e-30 -6.12e-08 -1.32706e-18" rotation="-84.9209 -7.58303e-22 2.22442e-21" nodeId="13">
+            <TransformGroup name="Spine_05" translation="1.88396e-24 0.194868 1.09204e-08" rotation="-1.73337 -2.28282e-21 -5.58396e-22" nodeId="14">
+              <TransformGroup name="tail_1" translation="2.39365e-24 0.2197 4.60057e-09" rotation="-45.8465 9.52761e-06 -9.77468e-06" nodeId="15">
+                <TransformGroup name="tail_2" translation="-5.77939e-14 0.0823446 -3.89864e-09" rotation="-9.25307 -1.66116e-07 -2.22733e-06" nodeId="16">
+                  <TransformGroup name="tail_3" translation="3.95333e-11 0.0846909 3.66073e-08" rotation="-12.2887 -2.71735e-05 2.88435e-06" nodeId="17">
+                    <TransformGroup name="tail_4" translation="-5.24379e-14 0.0830958 -1.97958e-08" rotation="1.80285 6.82749e-05 1.71903e-06" nodeId="18">
+                      <TransformGroup name="tail_5" translation="-6.4143e-14 0.0757568 5.11466e-09" rotation="-0.274136 -4.09853e-05 -5.87246e-08" nodeId="19"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="hip_bFBXASC046L" translation="0.0836826 0.125639 0.0320588" rotation="-109.876 -3.51246 0.435117" nodeId="20">
+                <TransformGroup name="thigh_bFBXASC046L" translation="-6.4227e-09 0.269872 4.08496e-08" rotation="129.886 2.06754 -175.941" nodeId="21">
+                  <TransformGroup name="shin_bFBXASC046L" translation="-1.54525e-08 0.348259 -4.91855e-08" rotation="142.711 2.48385 -176.676" nodeId="22">
+                    <TransformGroup name="hoof_bFBXASC046L" translation="-3.87754e-08 0.252668 1.94973e-08" rotation="-166.051 -1.077 -176.728" nodeId="23"/>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="hip_bFBXASC046R" translation="-0.0836826 0.125639 0.0320588" rotation="-109.876 3.51246 -0.435117" nodeId="24">
+                <TransformGroup name="thigh_bFBXASC046R" translation="6.4227e-09 0.269872 4.08496e-08" rotation="129.886 -2.06754 175.941" nodeId="25">
+                  <TransformGroup name="shin_bFBXASC046R" translation="1.54525e-08 0.348259 -4.91855e-08" rotation="142.711 -2.48385 176.676" nodeId="26">
+                    <TransformGroup name="hoof_bFBXASC046R" translation="3.87754e-08 0.252668 1.94973e-08" rotation="-166.051 1.07716 176.728" nodeId="27"/>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Spine_03" translation="3.03741e-31 -7.65e-09 -1.32706e-18" rotation="87.418 4.71584e-05 -179.999" nodeId="28">
+            <TransformGroup name="Spine_02" translation="7.33811e-13 0.165158 2.44613e-08" rotation="7.55083 -0.000388249 8.72998e-05" nodeId="29">
+              <TransformGroup name="neck_01" translation="7.8411e-13 0.217438 -1.44679e-07" rotation="53.823 -0.00061091 7.31241e-05" nodeId="30">
+                <TransformGroup name="neck_02" translation="-1.79997e-12 0.176993 -1.39522e-08" rotation="-1.41802 0.000122878 -5.28447e-06" nodeId="31">
+                  <TransformGroup name="head" translation="-1.10028e-12 0.166001 7.79757e-09" rotation="-79.954 -0.000202475 -6.23452e-05" nodeId="32">
+                    <TransformGroup name="mouth" translation="2.46594e-08 0.0468697 -0.0223226" rotation="-14.5222 -2.84703e-05 -9.02025e-06" nodeId="33"/>
+                    <TransformGroup name="EarFBXASC046L" translation="-0.0733404 -0.014563 0.0828441" rotation="89.3782 -4.05405 87.6955" nodeId="34"/>
+                    <TransformGroup name="eyeFBXASC046L" translation="-0.0473542 0.0992213 0.0616355" rotation="49.7859 -9.45635 64.1601" nodeId="35"/>
+                    <TransformGroup name="EarFBXASC046R" translation="0.0733402 -0.0145631 0.0828441" rotation="89.3784 4.05404 -87.6955" nodeId="36"/>
+                    <TransformGroup name="eyeFBXASC046R" translation="0.0473542 0.0992213 0.0616357" rotation="49.786 9.4563 -64.1601" nodeId="37"/>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="hip_1_fFBXASC046L" translation="-0.108713 0.100256 0.0789985" rotation="-63.9647 7.42613 2.30182" nodeId="38">
+                <TransformGroup name="hip_2_fFBXASC046L" translation="7.94514e-09 0.278204 -9.67547e-08" rotation="-109.526 4.56233 171.073" nodeId="39">
+                  <TransformGroup name="thigh_fFBXASC046L" translation="2.70074e-08 0.182876 -3.21554e-08" rotation="-137.321 -6.24601 -179.435" nodeId="40">
+                    <TransformGroup name="shin_fFBXASC046L" translation="-1.62292e-08 0.248757 -4.6903e-09" rotation="-176.03 2.05799 -177.462" nodeId="41">
+                      <TransformGroup name="hoof_fFBXASC046L" translation="2.90006e-08 0.215387 6.54009e-08" rotation="-158.241 0.0606371 175.205" nodeId="42"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="hip_1_fFBXASC046R" translation="0.108712 0.100256 0.0790008" rotation="-63.9646 -7.42745 -2.30183" nodeId="43">
+                <TransformGroup name="hip_2_fFBXASC046R" translation="-8.05599e-11 0.278203 -8.17716e-08" rotation="-109.526 -4.56201 -171.073" nodeId="44">
+                  <TransformGroup name="thigh_fFBXASC046R" translation="-2.64288e-08 0.182876 -2.05254e-07" rotation="-137.321 6.24625 179.435" nodeId="45">
+                    <TransformGroup name="shin_fFBXASC046R" translation="1.59737e-08 0.248757 -6.50813e-08" rotation="-176.03 -2.05751 177.462" nodeId="46">
+                      <TransformGroup name="hoof_fFBXASC046R" translation="-1.40267e-08 0.215387 1.01554e-07" rotation="-158.241 -0.0610111 -175.205" nodeId="47"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <TransformGroup name="cam_placeholder" nodeId="48"/>
+      <TransformGroup name="exit_placeholder" nodeId="49"/>
+      <TransformGroup name="geo_placeholder" nodeId="50">
+        <TransformGroup name="foalLods" nodeId="51">
+          <TransformGroup name="Lod0" nodeId="52"/>
+          <TransformGroup name="Lod0" nodeId="53"/>
+          <TransformGroup name="Lod0" nodeId="54"/>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape name="proxy" shapeId="2" visibility="false" kinematic="true" collisionFilterGroup="0x200000" collisionFilterMask="0xfffffbff" linearDamping="0.5" angularDamping="0.5" clipDistance="100" nodeId="55" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="6"/>
+      <TransformGroup name="Placeholder_translation" nodeId="56"/>
+    </Shape>
+  </Scene>
+
+
+  <Animation externalAnimFile="foal.i3d.anim" />
+</i3D>

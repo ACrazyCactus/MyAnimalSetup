@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="mouse.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.10"/>
+  </Asset>
+
+  <Files>
+    <File fileId="1" filename="mouse_diffuse.png"/>
+    <File fileId="3" filename="mouse_specular.png"/>
+    <File fileId="2" filename="mouse_normal.png"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="maus_mat" materialId="5">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="mouse.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="skeleton" rotation="-90 0 0" scale="1.75976 1.75976 1.75976" nodeId="8">
+      <TransformGroup name="Root" rotation="89.9592 -4.06769e-13 1.2e-05" nodeId="9">
+        <TransformGroup name="Pelvis" translation="0 0.0197903 -0.0106182" rotation="22.599 1.2e-05 -180" nodeId="10">
+          <TransformGroup name="Spine_1" translation="0 -0.00113603 0.00394394" rotation="-16.3857 -3.8e-05 -4e-05" nodeId="11">
+            <TransformGroup name="Spine_2" translation="0 -0.00037086 0.00576163" rotation="-8.13194 2.2e-05 4.8e-05" nodeId="12">
+              <TransformGroup name="Spine_3" translation="0 -5.656e-05 0.0047439" rotation="77.0615 -8e-06 1.4e-05" nodeId="13">
+                <TransformGroup name="Spine_4" translation="0 0.00612647 0" rotation="6.94374 0.000156 2.5e-05" nodeId="14">
+                  <TransformGroup name="Spine_5" translation="0 0.00342223 -0.0001036" rotation="-90.0002 7.63521 90" nodeId="15">
+                    <TransformGroup name="Neck_1" translation="0.00387394 0.00701918 0" rotation="133.847 89.9999 1.39264" nodeId="16">
+                      <TransformGroup name="Neck_2" translation="0 0.00196203 -0.00054747" rotation="-26.3291 -4.2e-05 -3.5e-05" nodeId="17">
+                        <TransformGroup name="Neck_3" translation="0 0.00229068 -0.00012166" rotation="-2.77622 -5.6e-05 7e-06" nodeId="18">
+                          <TransformGroup name="Neck_4" translation="0 0.00187593 0.00020664" rotation="1.60856 1.4e-05 -9e-06" nodeId="19">
+                            <TransformGroup name="Head" translation="0 0.00383397 0.00014609" rotation="-25.5159 3.9e-05 -2e-06" nodeId="20">
+                              <TransformGroup name="Nose" translation="0 0.0111161 -0.00161329" rotation="63.9338 -3e-06 -180" nodeId="21">
+                                <TransformGroup name="Nose_end" translation="0 0.00509873 0" nodeId="22"/>
+                              </TransformGroup>
+                              <TransformGroup name="HeadFBXASC046001" translation="-0.00557046 -0.00457548 0.00173215" rotation="147.191 -17.5478 -14.8864" nodeId="23">
+                                <TransformGroup name="HeadFBXASC046001_end" translation="0 0.00509873 0" nodeId="24"/>
+                              </TransformGroup>
+                              <TransformGroup name="HeadFBXASC046002" translation="0.00579194 -0.00445242 0.00165816" rotation="148.567 19.3672 17.6642" nodeId="25">
+                                <TransformGroup name="HeadFBXASC046002_end" translation="0 0.00509873 0" nodeId="26"/>
+                              </TransformGroup>
+                            </TransformGroup>
+                          </TransformGroup>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="Front_L_Leg_Upper" translation="0.00115871 0.00744128 0.00393715" rotation="0.428025 90 -0.428025" nodeId="27">
+                      <TransformGroup name="Front_L_Leg_Elbow" translation="-0.00109375 0.00677509 0.0018844" rotation="26.599 -3.4e-05 -9e-06" nodeId="28">
+                        <TransformGroup name="Front_L_Leg_Lower" translation="0 0.00234101 -0.00017157" rotation="25.2702 2.5e-05 -1e-06" nodeId="29">
+                          <TransformGroup name="Front_L_Foot" translation="0 0.00353045 -0.00010094" rotation="-43.1234 -3.2e-05 -2.2e-05" nodeId="30">
+                            <TransformGroup name="Front_L_FootFBXASC046001" translation="0 0.00103852 0" rotation="97.7537 4.3e-05 -4.3e-05" nodeId="31">
+                              <TransformGroup name="Front_L_FootFBXASC046001_end" translation="0 0.00103852 0" nodeId="32"/>
+                            </TransformGroup>
+                          </TransformGroup>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                    <TransformGroup name="Front_R_Leg_Upper" translation="0.00115878 0.00744128 -0.00394877" rotation="-0.428026 -90 -0.428026" nodeId="33">
+                      <TransformGroup name="Front_R_Leg_Elbow" translation="-0.00109375 0.00677509 -0.0018844" rotation="-26.5989 -6e-05 4e-06" nodeId="34">
+                        <TransformGroup name="Front_R_Leg_Lower" translation="0 0.00234094 0.00017157" rotation="-25.2702 1.6e-05 6e-06" nodeId="35">
+                          <TransformGroup name="Front_R_Foot" translation="0 0.00353045 0.00010094" rotation="136.877 -1.7e-05 -180" nodeId="36">
+                            <TransformGroup name="Front_R_FootFBXASC046001" translation="0 0.00104734 0" rotation="97.4036 5e-06 -9e-06" nodeId="37">
+                              <TransformGroup name="Front_R_FootFBXASC046001_end" translation="0 0.00104734 0" nodeId="38"/>
+                            </TransformGroup>
+                          </TransformGroup>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+              <TransformGroup name="Spine_2FBXASC046001" translation="-0.00770714 0.0125742 0.0043463" rotation="-80.9101 2e-06 -1.4e-05" nodeId="39">
+                <TransformGroup name="Spine_2FBXASC046001_end" translation="0 0.00474425 0" nodeId="40"/>
+              </TransformGroup>
+              <TransformGroup name="Spine_2FBXASC046002" translation="0.00694715 0.0125585 0.00436387" rotation="-80.618 2e-06 -1.4e-05" nodeId="41">
+                <TransformGroup name="Spine_2FBXASC046002_end" translation="0 0.00474425 0" nodeId="42"/>
+              </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="Spine_1FBXASC046002" translation="0 0.00198982 -0.00561239" rotation="-14.0942 -5.4e-05 4.5e-05" nodeId="43">
+              <TransformGroup name="PelvisFBXASC046001" translation="-0.00302113 0.00620137 0.00133518" rotation="-127.972 -9.8e-05 180" nodeId="44">
+                <TransformGroup name="PelvisFBXASC046001_end" translation="0 0.00669529 0" nodeId="45"/>
+              </TransformGroup>
+              <TransformGroup name="PelvisFBXASC046002" translation="0.00214158 0.00620137 0.00133518" rotation="-127.972 -9.8e-05 180" nodeId="46">
+                <TransformGroup name="PelvisFBXASC046002_end" translation="0 0.00669529 0" nodeId="47"/>
+              </TransformGroup>
+              <TransformGroup name="Spine_1FBXASC046001" translation="0 0.0103466 0.00059577" rotation="-127.681 0.000185 0.000126" nodeId="48">
+                <TransformGroup name="Tail_1" translation="0 0.00448798 0.00092904" rotation="77.0049 2.4e-05 -0.000527" nodeId="49">
+                  <TransformGroup name="Tail_1FBXASC046001" translation="0 0.00354592 0" rotation="7.193 -0.462596 1.76148" nodeId="50">
+                    <TransformGroup name="Tail_1FBXASC046002" translation="0 0.00393974 0" rotation="-4.69764 0.510249 -0.305296" nodeId="51">
+                      <TransformGroup name="Tail_1FBXASC046003" translation="0 0.00468755 0" rotation="-8.86164 0.201746 0.725843" nodeId="52">
+                        <TransformGroup name="Tail_1FBXASC046004" translation="0 0.0041111 0" rotation="-1.72289 0.154743 2.86008" nodeId="53">
+                          <TransformGroup name="Tail_1FBXASC046005" translation="0 0.00313586 0" rotation="-14.2504 1.66851 1.40746" nodeId="54">
+                            <TransformGroup name="Tail_1FBXASC046006" translation="0 0.00347606 0" rotation="-3.55048 0.937669 1.94507" nodeId="55">
+                              <TransformGroup name="Tail_1FBXASC046007" translation="0 0.00314972 0" rotation="-1.85532 -0.422652 2.87873" nodeId="56">
+                                <TransformGroup name="Tail_1FBXASC046008" translation="0 0.0040418 0" rotation="-4.30067 2.02615 8.77332" nodeId="57">
+                                  <TransformGroup name="Tail_1FBXASC046009" translation="0 0.00438312 0" rotation="0.925433 -0.558743 10.6829" nodeId="58">
+                                    <TransformGroup name="Tail_1FBXASC046010" translation="0 0.0034237 0" rotation="6.1e-05 -9e-06 6.59779" nodeId="59">
+                                      <TransformGroup name="Tail_1FBXASC046011" translation="0 0.00320523 0" rotation="3.67767 0.932405 8.63684" nodeId="60">
+                                        <TransformGroup name="Tail_1FBXASC046012" translation="0 0.0029834 0" rotation="-1.29398 -3.31926 20.3102" nodeId="61">
+                                          <TransformGroup name="Tail_1FBXASC046013" translation="0 0.00313082 0" rotation="-2.90288 0.136792 5.4908" nodeId="62">
+                                            <TransformGroup name="Tail_1FBXASC046014" translation="0 0.0029197 0" rotation="1.72564 -0.324809 14.7322" nodeId="63">
+                                              <TransformGroup name="Tail_1FBXASC046015" translation="0 0.00330603 0" rotation="2.46199 -0.125708 14.8451" nodeId="64">
+                                                <TransformGroup name="Tail_1FBXASC046016" translation="0 0.00307804 0" rotation="-0.5939 0.23586 12.9985" nodeId="65">
+                                                  <TransformGroup name="Tail_1FBXASC046017" translation="0 0.00310366 0" rotation="-1.14947 -0.053572 9.79405" nodeId="66">
+                                                    <TransformGroup name="Tail_1FBXASC046018" translation="0 0.00254856 0" rotation="2.61054 0.152482 -2.03172" nodeId="67">
+                                                      <TransformGroup name="Tail_1FBXASC046019" translation="0 0.00240884 0" rotation="3.67103 -0.318747 11.0942" nodeId="68">
+                                                        <TransformGroup name="Tail_1FBXASC046019_end" translation="0 0.00240884 0" nodeId="69"/>
+                                                      </TransformGroup>
+                                                    </TransformGroup>
+                                                  </TransformGroup>
+                                                </TransformGroup>
+                                              </TransformGroup>
+                                            </TransformGroup>
+                                          </TransformGroup>
+                                        </TransformGroup>
+                                      </TransformGroup>
+                                    </TransformGroup>
+                                  </TransformGroup>
+                                </TransformGroup>
+                              </TransformGroup>
+                            </TransformGroup>
+                          </TransformGroup>
+                        </TransformGroup>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Back_R_Leg_Upper" translation="0.00513478 0.00273875 7.728e-05" rotation="-175.223 0.240853 178.657" nodeId="70">
+            <TransformGroup name="Back_R_Leg_Knee" translation="-0.00050232 0.00807996 0.00080661" rotation="3.42656 -0.132581 -0.789654" nodeId="71">
+              <TransformGroup name="Back_R_Leg_Lower" translation="-2.464e-05 0.00142177 0.00063182" rotation="52.1199 -2.49037 3.27476" nodeId="72">
+                <TransformGroup name="Back_R_Foot" translation="-0.0005726 0.00666127 0.00029323" rotation="-107.258 4.21187 -1.25733" nodeId="73">
+                  <TransformGroup name="Back_R_Foot_end" translation="0 0.00669221 0" nodeId="74"/>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="Back_L_Leg_Upper" translation="-0.00516838 0.00278222 0.00018158" rotation="-174.966 -0.429569 -176.627" nodeId="75">
+            <TransformGroup name="Back_L_Leg_Knee" translation="-0.0004697 0.00795081 0.00109774" rotation="3.3707 -0.054398 6.03408" nodeId="76">
+              <TransformGroup name="Back_L_Leg_Lower" translation="0.00016107 0.00142177 0.00061145" rotation="49.7437 8.50951 -11.4213" nodeId="77">
+                <TransformGroup name="Back_L_Foot" translation="0.00074186 0.00666211 0.00014903" rotation="-89.4986 -16.2816 -86.419" nodeId="78">
+                  <TransformGroup name="Back_L_Foot_end" translation="0 0.00670502 0" nodeId="79"/>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="PelvisFBXASC046003" translation="0 0.0089348 0.00187488" rotation="-112.619 7.5e-05 -6.3e-05" nodeId="80">
+            <TransformGroup name="PelvisFBXASC046003_end" translation="0 0.00410431 0" nodeId="81"/>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+    </TransformGroup>
+    <Shape name="geo_mesh" shapeId="1" nodeId="82" castsShadows="true" receiveShadows="true" skinBindNodeIds="9 10 11 12 13 14 15 16 17 18 19 20 21 23 25 27 28 29 30 31 33 34 35 36 37 39 41 43 44 46 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 70 71 72 73 75 76 77 78 80" materialIds="5"/>
+  </Scene>
+
+
+  <Animation externalAnimFile="mouse.i3d.anim" />
+</i3D>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="springingFish.i3d" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.3"/>
+  </Asset>
+
+  <Files>
+    <File fileId="3" filename="../../../../textures/fishSetAlpha_diffuse.dds"/>
+    <File fileId="4" filename="../../../../textures/fishSet_normal.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="fishSet_mat" materialId="5" specularColor="0.486275 1 0.486275">
+      <Texture fileId="3"/>
+      <Normalmap fileId="4"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="UnnamedMaterial" materialId="7" diffuseColor="1 1 1 1">
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="springingFish.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="springingFish" clipDistance="120" nodeId="12">
+      <TransformGroup name="bones" translation="0 0 3.5e-05" rotation="0 -90 0" nodeId="13">
+        <TransformGroup name="joint2" translation="0.07839 0 0" rotation="0 0 18.0478" nodeId="14">
+          <TransformGroup name="joint3" translation="0.037823 0 0" rotation="0 0 -19.4799" nodeId="15">
+            <TransformGroup name="joint4" translation="0.021451 -0.004314 0" rotation="0 0 -11.035" nodeId="16">
+              <TransformGroup name="joint28" translation="0.012365 -0 0" rotation="0 90 12.4671" nodeId="17"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="joint5" translation="0.030079 -0.026375 0" rotation="0 0 -1.03987" nodeId="18">
+            <TransformGroup name="joint6" translation="0.02134 0.002346 0" rotation="0 0 -11.0827" nodeId="19">
+              <TransformGroup name="joint29" translation="0.01134 0 0" rotation="0 0 12.1225" nodeId="20"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="flosseVornLinks" translation="-0.041261 -0.019298 -0.02357" rotation="180 89.0887 161.952" nodeId="21">
+            <TransformGroup name="joint15" translation="0.022372 -0.00726 -0.000129" rotation="0 -0.491583 0" nodeId="22">
+              <TransformGroup name="joint16" translation="0.024279 -0.004662 0" rotation="-91.3546 -71.9475 91.2879" nodeId="23"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="flosseVornRechts" translation="-0.041457 -0.019398 0.022035" rotation="90 -77.3879 -108.048" nodeId="24">
+            <TransformGroup name="joint13" translation="0.019623 -0.001058 -0" rotation="0 0 -1.29884" nodeId="25">
+              <TransformGroup name="joint14" translation="0.031258 0.001697 -0" rotation="90 71.9522 103.911" nodeId="26"/>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="joint7" translation="-0.050105 0 0" rotation="180 0 175.865" nodeId="27">
+          <TransformGroup name="joint8" translation="0.100876 0 -0" rotation="0 0 -4.9195" nodeId="28">
+            <TransformGroup name="joint9" translation="0.0295 0 -0" rotation="0 0 -6.7646" nodeId="29">
+              <TransformGroup name="joint10" translation="0.067397 0.002003 -0" rotation="180 -5.08889e-14 -172.451" nodeId="30"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="flosseHintenRechts" translation="0.001984 -0.05161 -0.006848" rotation="-89.9998 84.0456 -94.1348" nodeId="31">
+            <TransformGroup name="joint21" translation="0.017462 -0.001983 0" rotation="0 0 -0.347342" nodeId="32">
+              <TransformGroup name="joint22" translation="0.029099 -0 0" rotation="-90 -85.8653 96.3016" nodeId="33"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="flosseHintenLinks" translation="0.001986 -0.05135 0.005315" rotation="89.9999 -82.2969 -94.1346" nodeId="34">
+            <TransformGroup name="joint19" translation="0.021436 -0.001338 -0" rotation="0 0 2.67895" nodeId="35">
+              <TransformGroup name="joint20" translation="0.024314 0 -0" rotation="89.9999 85.8653 95.0239" nodeId="36"/>
+            </TransformGroup>
+          </TransformGroup>
+          <TransformGroup name="joint26" translation="0.0714 -0.030791 -0" rotation="0 0 -37.9366" nodeId="37">
+            <TransformGroup name="joint27" translation="0.032511 0 -0" rotation="0 0 37.9366" nodeId="38"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="joint23" translation="-0.067718 0.058854 0" rotation="180 0 129.629" nodeId="39">
+          <TransformGroup name="joint24" translation="0.02466 -0 -0" rotation="0 0 1.26152" nodeId="40">
+            <TransformGroup name="joint25" translation="0.027252 0 0" rotation="180 -8.14222e-13 128.367" nodeId="41"/>
+          </TransformGroup>
+          <Shape name="sphere" shapeId="1" kinematic="true" collisionFilterGroup="0x80090004" collisionFilterMask="0xfe3ffb83" nodeId="42" castsShadows="false" receiveShadows="false" nonRenderable="true" distanceBlending="false" materialIds="7"/>
+        </TransformGroup>
+        <Shape name="sound" translation="-1.82347 -8.96451 0" shapeId="2" visibility="false" nodeId="43" castsShadows="true" receiveShadows="true" materialIds="6"/>
+      </TransformGroup>
+      <Shape name="roach_mesh" shapeId="3" clipDistance="120" nodeId="44" castsShadows="true" receiveShadows="true" skinBindNodeIds="13 14 15 16 18 19 21 22 24 25 27 28 29 31 32 34 35 39 40 41" materialIds="5"/>
+    </TransformGroup>
+  </Scene>
+
+
+  <Animation externalAnimFile="springingFish.i3d.anim" />
+</i3D>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="dog" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+
+  <Files>
+    <File fileId="1" filename="dog3_diffuse.png" />
+    <File fileId="2" filename="dog3_normal.png" />
+    <File fileId="3" filename="dog3_specular.png" />
+  </Files>
+
+  <Materials>
+    <Material name="lambert1" materialId="1" diffuseColor="0.5 0.5 0.5 1">
+    </Material>
+    <Material name="dog_mat" materialId="2">
+      <Texture fileId="1"/>
+      <Normalmap fileId="2"/>
+      <Glossmap fileId="3"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="dog3.i3d.shapes">
+  </Shapes>
+
+  <Scene>
+    <TransformGroup name="dogSkeleton" nodeId="1">
+      <TransformGroup name="root" translation="2.28771e-31 0.655047 -0.223829" rotation="-90 -73.0623 -90" nodeId="2">
+        <TransformGroup name="backRump_R" translation="-0.0200317 0.0805833 -0.0871597" rotation="0 -0 69.8042" nodeId="3">
+          <TransformGroup name="backHip_R" translation="0.194512 -3.90799e-16 2.96652e-15" rotation="0 -0 39.2963" nodeId="4">
+            <TransformGroup name="backKnee_R" translation="0.219636 -5.68434e-16 2.50466e-15" rotation="0 0 -29.7303" nodeId="5">
+              <TransformGroup name="backAnkle_R" translation="0.163908 9.23706e-16 -5.32907e-16" rotation="9.58495 -1.4291e-06 -6.30792" nodeId="6">
+                <TransformGroup name="backToes_R" translation="0.0237737 -0.0277984 -5.86198e-16" rotation="-1.89576e-22 -3.78024e-06 -57.6405" nodeId="7"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Tail1_M" translation="-0.0608317 0.0129886 -2.28189e-18" rotation="180 2.25992e-29 154.408" nodeId="8">
+          <TransformGroup name="Tail2_M" translation="0.0740355 1.56319e-15 -8.51643e-17" rotation="0 -0 16.601" nodeId="9">
+            <TransformGroup name="Tail3_M" translation="0.0970747 1.42109e-15 9.50017e-16" rotation="0 -0 5.88208" nodeId="10">
+              <TransformGroup name="Tail4_M" translation="0.0869422 -4.26326e-16 1.51323e-15" rotation="0 0 -4.51081" nodeId="11">
+                <TransformGroup name="Tail5_M" translation="0.0844387 1.7053e-15 2.47188e-15" rotation="0 0 -18.4557" nodeId="12">
+                  <TransformGroup name="Tail6_M" translation="0.0930477 -1.77636e-15 4.74737e-15" rotation="0 0 -21.1758" nodeId="13"/>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="Spine1_M" translation="0.120765 2.13163e-16 1.41976e-16" rotation="0 0 -5.69243" nodeId="14">
+          <TransformGroup name="Spine2_M" translation="0.124822 -3.55271e-16 -3.22127e-17" rotation="0 0 -0.853034" nodeId="15">
+            <TransformGroup name="Spine3_M" translation="0.129478 -2.84217e-16 -3.25569e-17" rotation="0 0 -14.4472" nodeId="16">
+              <TransformGroup name="Chest_M" translation="0.129649 -1.13687e-15 -3.23179e-16" rotation="0 0 -45.4489" nodeId="17">
+                <TransformGroup name="Neck_M" translation="0.0702875 6.75016e-16 -7.36727e-16" rotation="0 0 -13.0827" nodeId="18">
+                  <TransformGroup name="Neck1_M" translation="0.0756527 -3.61933e-16 -1.08758e-15" nodeId="19">
+                    <TransformGroup name="Head_M" translation="0.0756527 -3.61933e-16 -1.64152e-15" rotation="0 -0 15.113" nodeId="20">
+                      <TransformGroup name="Jaw_M" translation="0.032227 0.04664 2.58263e-17" rotation="0 -0 87.3125" nodeId="21"/>
+                      <TransformGroup name="Eye_R" translation="0.116976 0.0652362 -0.0420986" rotation="6.21203e-18 0.102226 47.4735" nodeId="22"/>
+                      <TransformGroup name="tongue_M" translation="0.0228712 0.103485 -1.07529e-15" rotation="0 -0 59.085" nodeId="23">
+                        <TransformGroup name="tongue1_M" translation="0.0345497 1.42109e-15 -2.94534e-16" rotation="0 -0 20.9626" nodeId="24">
+                          <TransformGroup name="tongue2_M" translation="0.0264066 -8.52651e-16 4.75535e-17" rotation="0 0 -7.66929" nodeId="25">
+                            <TransformGroup name="tongue3_M" translation="0.0214674 0 -5.13819e-17" rotation="0 -0 0.78057" nodeId="26"/>
+                          </TransformGroup>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="Ear_R" translation="0.0527986 -0.0354063 -0.0662712" rotation="64.9379 66.8576 87.8972" nodeId="27">
+                        <TransformGroup name="Ear1_R" translation="0.0407854 1.42109e-16 -1.27898e-15" rotation="-174.512 0.253234 65.4352" nodeId="28">
+                          <TransformGroup name="Ear2_R" translation="0.0537473 -7.4607e-16 -5.68434e-16" rotation="1.59104 -2.03613 -14.7298" nodeId="29"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="upperLid_R" translation="0.116976 0.0652362 -0.0420986" rotation="-180 7.06225e-31 12.8741" nodeId="30"/>
+                      <TransformGroup name="bottomLid_R" translation="0.116976 0.0652362 -0.0420986" rotation="180 7.06225e-31 102.767" nodeId="31"/>
+                      <TransformGroup name="Eye_L" translation="0.116976 0.0652362 0.0420986" rotation="-6.21203e-18 -0.102226 47.4735" nodeId="32"/>
+                      <TransformGroup name="Ear_L" translation="0.0527986 -0.0354063 0.0662712" rotation="64.9379 66.8576 -92.1028" nodeId="33">
+                        <TransformGroup name="Ear1_L" translation="-0.0407854 5.68434e-16 -1.27898e-15" rotation="-174.512 0.253234 65.4352" nodeId="34">
+                          <TransformGroup name="Ear2_L" translation="-0.0537473 -3.90799e-16 -7.10543e-16" rotation="1.59104 -2.03613 -14.7298" nodeId="35"/>
+                        </TransformGroup>
+                      </TransformGroup>
+                      <TransformGroup name="upperLid_L" translation="0.116976 0.0652362 0.0420986" rotation="0 180 12.8741" nodeId="36"/>
+                      <TransformGroup name="bottomLid_L" translation="0.116976 0.0652362 0.0420986" rotation="180 -0 -77.2331" nodeId="37"/>
+                    </TransformGroup>
+                  </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="ribCage_M" translation="-9.9476e-16 9.59233e-16 1.47359e-29" rotation="0 -0 133.34" nodeId="38"/>
+                <TransformGroup name="frontRump_R" translation="-0.0199252 0.0909673 -0.0782855" rotation="-161.19 4.49433 167.606" nodeId="39">
+                  <TransformGroup name="frontHip_R" translation="0.178879 -8.70415e-16 -1.95399e-15" rotation="-2.95854e-06 11.5019 37.3337" nodeId="40">
+                    <TransformGroup name="frontKnee_R" translation="0.231315 -6.39488e-16 -3.22409e-15" rotation="0 0 -9.37528" nodeId="41">
+                      <TransformGroup name="frontAnkle_R" translation="0.0744257 0 -1.1191e-15" rotation="-2.09231 1.27771 -1.96046" nodeId="42">
+                        <TransformGroup name="frontToes_R" translation="0.0100324 0.0278248 1.24345e-16" rotation="179.847 0.219628 55.1761" nodeId="43"/>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                  <TransformGroup name="scapula_R" translation="1.42109e-16 -8.88178e-17 8.88178e-17" rotation="4.64373 195.376 62.1158" nodeId="44"/>
+                </TransformGroup>
+                <TransformGroup name="frontRump_L" translation="-0.0199252 0.0909673 0.0782855" rotation="-161.19 4.49433 -12.3943" nodeId="45">
+                  <TransformGroup name="frontHip_L" translation="-0.178879 3.55271e-17 -2.0961e-15" rotation="-2.96364e-06 11.5019 37.3337" nodeId="46">
+                    <TransformGroup name="frontKnee_L" translation="-0.231315 -7.81597e-16 -9.68114e-16" rotation="0 0 -9.37528" nodeId="47">
+                      <TransformGroup name="frontAnkle_L" translation="-0.0744257 0 -3.55271e-16" rotation="-2.09231 1.27771 -1.96046" nodeId="48">
+                        <TransformGroup name="frontToes_L" translation="-0.0100324 -0.0278248 -1.15463e-16" rotation="179.847 0.219628 55.1761" nodeId="49"/>
+                      </TransformGroup>
+                    </TransformGroup>
+                  </TransformGroup>
+                  <TransformGroup name="scapula_L" translation="-1.42109e-16 7.81597e-16 -1.24345e-16" rotation="4.64373 195.376 62.1158" nodeId="50"/>
+                </TransformGroup>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="backRump_L" translation="-0.0200317 0.0805833 0.0871597" rotation="0 0 -110.196" nodeId="51">
+          <TransformGroup name="backHip_L" translation="-0.194512 -3.55271e-17 -2.55795e-15" rotation="0 -0 39.2963" nodeId="52">
+            <TransformGroup name="backKnee_L" translation="-0.219636 4.9738e-16 -1.38556e-15" rotation="0 0 -29.7303" nodeId="53">
+              <TransformGroup name="backAnkle_L" translation="-0.163908 -9.9476e-16 7.10543e-16" rotation="9.58495 -1.42611e-06 -6.30792" nodeId="54">
+                <TransformGroup name="backToes_L" translation="-0.0237737 0.0277984 5.50671e-16" rotation="3.79152e-22 -3.73663e-06 -57.6405" nodeId="55"/>
+              </TransformGroup>
+            </TransformGroup>
+          </TransformGroup>
+        </TransformGroup>
+      </TransformGroup>
+      <Shape name="playerInteractionTrigger" translation="-5.52189e-32 0.5 3.55271e-17" shapeId="1" kinematic="true" compound="true" trigger="true" collisionMask="1048576" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="56"/>
+    </TransformGroup>
+    <Shape name="dog" shapeId="2" castsShadows="true" receiveShadows="true" materialIds="2" skinBindNodeIds="40 39 17 44 16 38 15 18 19 20 14 3 2 4 8 9 5 51 27 33 21 31 30 28 41 42 43 10 6 7 11 12 13 50 29 52 45 46 53 36 37 34 47 48 49 54 55 35 26 25 24 23 22 32" clipDistance="120" nodeId="57"/>
+    <Shape name="dogProxy" visibility="false" shapeId="3" kinematic="true" linearDamping="0.5" angularDamping="0.5" collisionMask="268435456" castsShadows="true" receiveShadows="true" nonRenderable="true" materialIds="1" nodeId="58"/>
+  </Scene>
+
+
+  <Animation externalAnimFile="dog3.i3d.anim" />
+</i3D>
