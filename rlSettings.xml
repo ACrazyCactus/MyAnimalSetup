@@ -4,7 +4,7 @@
     <diseasesChance value="3"/>
     <maxNumMessages value="1"/>
     <accidentsChance value="5"/>
-    <useCustomAnimals value="2" path="C:/Users/{USERNAME}/Documents/My Games/FarmingSimulator2025/modSettings/MyAnimals/realisticLivestock.xml"/>
+    <useCustomAnimals value="2" path="C:/Users/{USERNAME}/Documents/My Games/FarmingSimulator2025/mods/MyAnimals/realisticLivestock.xml"/>
     <diseasesEnabled value="2"/>
     <maxDealerAnimals value="19"/>
     <deathEnabled value="2"/>
