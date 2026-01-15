@@ -9,7 +9,7 @@ The files go into the Hof Bergmann map directory, fillTypes.xml goes into config
 
 realisticLivestock.xml goes in the Hof Bergmann directory.
 
-Start a new save with all of your mods, but WITHOUT realistic livestock. Save the game. Open your save file, and create rlSettings.xml
+Start a new save with all of your mods, but WITHOUT realistic livestock. Save the game. Open your savegame directory, and create rlSettings.xml
 ```
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <settings>
@@ -28,3 +28,4 @@ Because the RL mod overrides your animals.xml, and hoffman doesn't IMPORT NEW AN
 By loading the override on the first boot of the save with the RL mod, you will avoid the rabbit hutch and goose husbandry disappearing from your placeables.xml. (although they can be restored by copying them from the placeables.xml of a base bergmann save file)
 
 In Settings, under Realistic Livestock, locate this realisticLivestock.xml file and select it. Restart your game, open settings, and regenerate Animal Seller stock. Check the stock, check out your breeding pairs, etc. 
+
