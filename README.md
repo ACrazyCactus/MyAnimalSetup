@@ -11,6 +11,15 @@ This is just a collection of files from there for a unified animal package to mo
 I don't have a modDesc or icon for this, maybe tomorrow.
 
 
+### Known Issues
+
+Hereford's are still RL models, haven't moved the bull yet.
+Bulls that have RL markings (marker, bumID, even the monitor) have them attached to the base spine, not a hip. So they float around. I've been editing XMLs by hand/with python, this might be something I need to download blender for? I've got a few minutes worth of experience with 3d model stuff, so... give me a bit to work those bugs out. Would gladly accept a PR, just the same.
+
+
+
+
+
 This change may impact existing animals, especially modded ones.
 It's best to do this with a fresh game on a map with default animals. 
 
