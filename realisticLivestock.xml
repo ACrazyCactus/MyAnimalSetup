@@ -1,1 +1,1 @@
-<RealisticLivestock animals="character/animals.xml" fillTypes="config/fillTypes.xml" translations="translations/l10n" override="true"/>
+<RealisticLivestock animals="character/animals.xml" fillTypes="fillTypes.xml" translations="l10n" override="true"/>
