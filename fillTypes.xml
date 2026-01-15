@@ -1,10 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
-    <fillTypeConverters>
-	<fillTypeConverter name="GRILLED_DISCHARGE">
-            <converter from="PORKMEAT" to="ASH" factor="1" />
-        </fillTypeConverter>
-    </fillTypeConverters>
 
  <fillTypes>
 <!-- horses -->
