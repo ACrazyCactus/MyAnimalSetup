@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<i3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="F03.i3d" version="1.6" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="10.0.7"></Export>
+  </Asset>
+  <Files>
+    <File fileId="4" filename="$data/shaders/tileAndMirrorShader.xml"></File>
+    <File fileId="1" filename="../../textures/beefDual_F_GS0304_diffuse.dds"></File>
+    <File fileId="2" filename="../../textures/cattle_F_GS0304_normal.dds"></File>
+    <File fileId="3" filename="../../textures/cattle_F_GS0304_specular.dds"></File>
+    <File fileId="5" filename="../../../earTags.i3d"></File>
+    <File fileId="6" filename="../../../earTagsRight.i3d"></File>
+    <File fileId="7" filename="../../../monitor.i3d"></File>
+    <File fileId="8" filename="../../../bumId.i3d"></File>
+    <File fileId="9" filename="../../../sprayedMarker_cattle.i3d"></File>
+  </Files>
+  <Materials>
+    <Material name="cattle_F_GS03_BeefDual" materialId="22" customShaderId="4">
+      <Texture fileId="1"></Texture>
+      <Normalmap fileId="2"></Normalmap>
+      <Glossmap fileId="3"></Glossmap>
+    </Material>
+  </Materials>
+  <Shapes externalShapesFile="F03.i3d.shapes">
+  </Shapes>
+  <Scene>
+    <Shape name="F03" shapeId="1" nodeId="8" castsShadows="true" receiveShadows="true" materialIds="22"></Shape>
+    <ReferenceNode name="monitor" referenceId="7" translation="-0.0277775 0.0127195 0.00303031" rotation="-2.77785e-06 -2.70115 76.2512" scale="1 0.5 0.5"></ReferenceNode>
+    <ReferenceNode name="bumId" referenceId="8" translation="-0.207106 0.0704122 0.0423419" rotation="-179.669 -3.87791 -177.846"></ReferenceNode>
+    <ReferenceNode name="sprayedMarker" referenceId="9" translation="0.173698 0.457282 -0.00109261" rotation="0 90 0" scale="0.171093 0.171093 0.171093"></ReferenceNode>
+  </Scene>
+</i3D>

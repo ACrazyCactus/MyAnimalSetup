@@ -134,7 +134,7 @@
 		<!-- 13 StraighEared Boar Stage 4 -->
 		<animal radius="1.8" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
 			<statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000"/>
-			<assets filename="straightEars/Pigs_M_GS04_type01.i3d" filenamePosed="animals/domesticated/pig/straightEars/static/M04.i3d" animation="straightEars/Pigs_M_GS04_type01.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|0|0|2|0">
+			<assets filename="straightEars/Pigs_M_GS04_type01.i3d" filenamePosed="character/animals/domesticated/pigs/straightEars/static/M04.i3d" animation="straightEars/Pigs_M_GS04_type01.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|0|0|2|0">
 				<texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false"/> <!--Landrace-->
 				<texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false"/> <!--Landrace-->
 				<texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false"/> <!--Pietrain-->

@@ -142,6 +142,7 @@
 			<locomotion filename="$dataS/character/animals/domesticated/waterBuffalo/locomotion.xml"/>
 			<audio eatSoundGroup="eat" yellSoundGroup="yellBuffalo" yellMinInterval="12000" yellMaxInterval="24000" yellTimerCrowdScale="0.2"/>
 		</animal>
+		<!-- This is Hereford, but COW_ANGUS right now. -->
 		<animal visualAnimalIndex="16" radius="1.8" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
 			<statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="5000" wanderMax="10000"/>
 			<assets filename="angus/cattleAngus.i3d" filenamePosed="$dataS/character/animals/domesticated/cow/angus/cattleAngus_posed.i3d" animation="$dataS/character/animals/domesticated/cow/animations/adult/cattleAdultAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|0|0" headIndex="0>0|0|0|0|0|0|0|0">
@@ -169,6 +170,7 @@
 			<locomotion filename="$dataS/character/animals/domesticated/cow/locomotionBaby.xml"/>
 			<audio eatSoundGroup="eat" yellSoundGroup="yellBaby" yellMinInterval="8000" yellMaxInterval="20000" yellTimerCrowdScale="0.2"/>
 		</animal>
+		<!-- Highland -->
 		<animal visualAnimalIndex="19" name="HIGHLAND_CATTLE_BABY" radius="0.7" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="false" canDrink="false" canSleep="true" canEatDuringNight="false" canBeCleaned="true" interessDistance="10.0">
 			<statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="0" grazeMax="0" chewMin="0" chewMax="0" eatMin="66665" eatMax="93331" wanderMin="5000" wanderMax="10000"/>
 			<assets filename="$dataS/character/animals/domesticated/cow/calf/cattleCalfHighlandBaby.i3d" filenamePosed="$dataS/character/animals/domesticated/cow/calf/cattleCalfHighlandBaby_posed.i3d" animation="$dataS/character/animals/domesticated/cow/highland/animations/young/cattleCalfHighlandBabyAnimations.i3d" skeletonIndex="0" meshIndex="1" proxyIndex="2" shaderIndex="1|2" headIndex="0>0|0|0|0|0|0|0|0">
@@ -193,7 +195,118 @@
 			<locomotion filename="$dataS/character/animals/domesticated/cow/highland/locomotion.xml"/>
 			<audio eatSoundGroup="eat" yellSoundGroup="yell" yellMinInterval="12000" yellMaxInterval="24000" yellTimerCrowdScale="0.2"/>
 		</animal>
-		
+				<!-- 22 Dairy Male Growthstage01 -->
+		<animal visualAnimalIndex="22" radius="0.5" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000" />
+            <assets filename="dairy/Cattle_M_GS01_Dairy.i3d" filenamePosed="animals/domesticated/cattle/dairy/static/FM01.i3d" animation="dairy/Cattle_M_GS01_Dairy.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|2|0|0|2|0|0" >
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="0" tileVIndex="2" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="1" tileVIndex="2" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="0" tileVIndex="3" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Swiss -->
+                <texture multi="true" tileUIndex="1" tileVIndex="3" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Swiss -->
+            </assets>
+            <locomotion filename="animations/cattle_GS01_Locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yellBaby" walkSoundGroup="walk" yellMinInterval="30000" yellMaxInterval="60000" yellTimerCrowdScale="0.4" />
+        </animal>
+		<!-- 23 Dairy Male Growthstage02 -->
+		<animal visualAnimalIndex="23" radius="1" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000" />
+            <assets filename="dairy/Cattle_M_GS02_Dairy.i3d" filenamePosed="animals/domesticated/cattle/dairy/static/M02.i3d" animation="dairy/Cattle_M_GS02_Dairy.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|2|0|0|2|0|0" >
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="0" tileVIndex="2" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="1" tileVIndex="2" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="0" tileVIndex="3" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Swiss -->
+                <texture multi="true" tileUIndex="1" tileVIndex="3" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Swiss -->
+            </assets>
+            <locomotion filename="animations/cattle_GS02_Locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yellBaby" walkSoundGroup="walk" yellMinInterval="30000" yellMaxInterval="60000" yellTimerCrowdScale="0.4" />
+        </animal>
+		<!-- 24 Dairy Male Growthstage03 -->
+		<animal visualAnimalIndex="24" radius="1.5" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000" />
+            <assets filename="dairy/Cattle_M_GS03_Dairy.i3d" filenamePosed="animals/domesticated/cattle/dairy/static/M03.i3d" animation="dairy/Cattle_M_GS03_Dairy.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|2|0|0|2|0|0" >
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="0" tileVIndex="2" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="1" tileVIndex="2" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="0" tileVIndex="3" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Swiss -->
+                <texture multi="true" tileUIndex="1" tileVIndex="3" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Swiss -->
+            </assets>
+            <locomotion filename="animations/cattle_GS03_Locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yellBull" walkSoundGroup="walk" yellMinInterval="30000" yellMaxInterval="60000" yellTimerCrowdScale="0.4" />
+        </animal>
+        <!-- 25 Dairy Male Growthstage04 -->
+        <animal visualAnimalIndex="25" radius="2" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000" />
+            <assets filename="dairy/Cattle_M_GS04_Dairy.i3d" filenamePosed="animals/domesticated/cattle/dairy/static/M04.i3d" animation="dairy/Cattle_M_GS04_Dairy.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|2|0|0|2|0|0" >
+                <texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Holstein -->
+                <texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="0" tileVIndex="2" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="1" tileVIndex="2" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Red Holstein -->
+				<texture multi="true" tileUIndex="0" tileVIndex="3" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Swiss -->
+                <texture multi="true" tileUIndex="1" tileVIndex="3" numTilesU="2" numTilesV="4" mirrorV="false" /><!-- Swiss -->
+            </assets>
+            <locomotion filename="animations/cattle_GS04_Locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yellBull" walkSoundGroup="walk" yellMinInterval="30000" yellMaxInterval="60000" yellTimerCrowdScale="0.4" />
+        </animal>
+		<!-- 26 Beef and Dualpurpose Male Growthstage01 -->
+		<animal visualAnimalIndex="26" radius="0.5" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000" />
+            <assets filename="beef/Cattle_M_GS01_BeefDual.i3d" filenamePosed="animals/domesticated/cattle/beef/static/FM01.i3d" animation="beef/Cattle_M_GS01_BeefDual.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|2|0|0|2|0|0" >
+				<texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Limousin -->
+				<texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Limousin -->
+				<texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Angus Black -->
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Angus Red -->
+            </assets>
+            <locomotion filename="animations/cattle_GS01_Locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yellBaby" walkSoundGroup="walk" yellMinInterval="30000" yellMaxInterval="60000" yellTimerCrowdScale="0.4" />
+        </animal>
+		<!-- 27 Beef and Dualpurpose Male Growthstage02 -->
+		<animal visualAnimalIndex="27" radius="1" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="false" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000" />
+            <assets filename="beef/Cattle_M_GS02_BeefDual.i3d" filenamePosed="animals/domesticated/cattle/beef/static/M02.i3d" animation="beef/Cattle_M_GS02_BeefDual.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|2|0|0|2|0|0" >
+				<texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Limousin -->
+				<texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Limousin -->
+				<texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Angus Black -->
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Angus Red -->
+            </assets>
+            <locomotion filename="animations/cattle_GS02_Locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yellBaby" walkSoundGroup="walk" yellMinInterval="30000" yellMaxInterval="60000" yellTimerCrowdScale="0.4" />
+        </animal>
+		<!-- 28 Beef and Dualpurpose Male Growthstage03 -->
+		<animal visualAnimalIndex="28" radius="1.5" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000" />
+            <assets filename="beef/Cattle_M_GS03_BeefDual.i3d" filenamePosed="animals/domesticated/cattle/beef/static/M03.i3d" animation="beef/Cattle_M_GS03_BeefDual.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|2|0|0|2|0|0" >
+				<texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Limousin -->
+				<texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Limousin -->
+				<texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Angus Black -->
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Angus Red -->
+            </assets>
+            <locomotion filename="animations/cattle_GS03_Locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yellBull" walkSoundGroup="walk" yellMinInterval="30000" yellMaxInterval="60000" yellTimerCrowdScale="0.4" />
+        </animal>
+        <!-- 29 Beef and Dualpurpose Male Growthstage04 -->
+        <animal visualAnimalIndex="29" radius="2" handleThreats="false" threatAwarenessRadius="5" slowingDistance="0.5" allowMilkingPlace="true" headOffset="0.8" canEat="true" canDrink="true" canSleep="true" canEatDuringNight="true" canBeCleaned="true" interessDistance="10.0">
+            <statesTimers idleMin="6666" idleMax="19998" sleepMin="120000" sleepMax="180000" restMin="12000" restMax="26666" grazeMin="26666" grazeMax="39999" chewMin="9000" chewMax="18000" eatMin="66665" eatMax="93331" wanderMin="1000" wanderMax="2000" />
+            <assets filename="beef/Cattle_M_GS04_BeefDual.i3d" filenamePosed="animals/domesticated/cattle/beef/static/M04.i3d" animation="beef/Cattle_M_GS04_BeefDual.i3d" skeletonIndex="0" meshIndex="0>1" proxyIndex="1" shaderIndex="0>1" headIndex="0>0|0|2|0|0|2|0|0" >
+				<texture multi="true" tileUIndex="0" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Limousin -->
+				<texture multi="true" tileUIndex="1" tileVIndex="1" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Limousin -->
+				<texture multi="true" tileUIndex="0" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Angus Black -->
+                <texture multi="true" tileUIndex="1" tileVIndex="0" numTilesU="2" numTilesV="2" mirrorV="false" /><!-- Angus Red -->
+            </assets>
+            <locomotion filename="animations/cattle_GS04_Locomotion.xml"/>
+            <audio eatSoundGroup="eat" yellSoundGroup="yellBull" walkSoundGroup="walk" yellMinInterval="30000" yellMaxInterval="60000" yellTimerCrowdScale="0.4" />
+        </animal>
 	</animals>
 	<sound>
 		<soundGroup name="walk" volume="1" indoorVolume="0.1" range="12" innerRange="0.4">

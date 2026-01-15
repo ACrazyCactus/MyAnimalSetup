@@ -1,7 +1,9 @@
 # MyBergmannAnimalSetup
+Work in progress, being updated pretty regularly right now.
 
+These are the files I'm using for my animals on Hoff Bergmann. I take no credit for the models, even if I may have edited them a bit from the originals to make them work with my particular setup.
 
-These are the files I'm using for my animals on Hoff Bergmann. I really enjoy Realistic Livestock, would like visual male/female variations, and like the tags/markings that RealisticLivestock brings to the table. As you know may or may not know, Hoff Bergmann brings it's own animal definitions, while realistic livestock uses the basegame definitions. I discovered that when you start playing in this area, the "animalAnimationIndex" value can get skewered, causing weird anomolies (like midget cows, or chickabbits)
+ I really enjoy Realistic Livestock, would like visual male/female variations, and like the tags/markings that RealisticLivestock brings to the table. As you know may or may not know, Hoff Bergmann brings it's own animal definitions, while realistic livestock uses the basegame definitions. I discovered that when you start playing in this area, the "animalAnimationIndex" value can get skewered, causing weird anomolies (like midget cows, or chickabbits)
 
 I've addressed this in my game by bringing the specific models, subtypes, and animations that I want to use in my game, directly to the Hof Bergmann map. It's ugly, and not how I planned to 'release' any of it, but I'm throwing it out there now so others can at least get going. I've still got some work to do regarding bull models and aligning their nodes, but as of the first commit, I do have RL eartags on Animal Package_vanillaEdition boar models. 
 
