@@ -1,7 +1,12 @@
-# MyBergmannAnimalSetup
+# MyAnimalSetup
 Work in progress, being updated pretty regularly right now.
 HUGE thanks to the creators of the mods RealisticLivestock and AnimalPackage_vanillaEdition. 
-This is just a collection of files from there for a unified animal package to move around my saves.
+https://github.com/Arrow-kb/FS25_RealisticLivestock
+https://www.farming-simulator.com/mod.php?mod_id=333997&title=fs2025
+
+
+
+This is just a collection of files from there for a unified animal package to move around my saves. I've started modifying the i3d models provided in AnimalPackage to work with realisticLivestock (ear tags, bumIds, markers, monitors), thus why I don't simply reference those FS25_ mod directories. That would've been much easier.
 
 
 This change may impact existing animals, especially modded ones.
