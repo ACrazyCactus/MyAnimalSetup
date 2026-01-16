@@ -5,6 +5,8 @@ https://github.com/Arrow-kb/FS25_RealisticLivestock
 https://www.farming-simulator.com/mod.php?mod_id=333997&title=fs2025
 
 
+This currently also includes Hoff Bergmann animals/models, because that's where I made/tested my animals.xml files, I may pull those out and make them secondary files or something in the future. Right now I'm more focused on getting pigs, cows, sheep, and chickens going.
+
 
 This is just a collection of files from there for a unified animal package to move around my saves. I've started modifying the i3d models provided in AnimalPackage to work with realisticLivestock (ear tags, bumIds, markers, monitors), thus why I don't simply reference those FS25_ mod directories. That would've been much easier.
 
@@ -37,5 +39,6 @@ Boot into your save, and you'll have animals!
 
 
 You can also set the path to realisticLivestock.xml via the in-game Realistic Livestock Settings section, but requires a restart of your save after setting the config. By dropping the file, RL will load these animals on first boot.
+
 
 
