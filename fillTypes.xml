@@ -218,16 +218,6 @@
             <image      hud     ="hud/fillTypes/hud_fill_cat.png" />
         </fillType>
 		
-		<fillType name="CATFOOD" title="$l10n_fillType_catFood" showOnPriceTable="false" isBulkType="true" isBaleType="false" isPalletType="false" unitShort="$l10n_unit_kg">
-            <physics massPerLiter="0.78" maxPhysicalSurfaceAngle="15" />
-            <economy pricePerLiter="0.337"/>
-            <image      hud     ="hud/fillTypes/hud_fill_cat.png" />
-			<pallet  	filename="objects/pallets/catFoodPallet/catFoodPallet.xml" />
-			<textures   diffuse ="$data/fillPlanes/mineralFeed_diffuse.png"
-                        normal  ="$data/fillPlanes/mineralFeed_normal.png"
-                        specular="$data/fillPlanes/mineralFeed_specular.png" 
-						distance="$data/fillPlanes/distance/pigFoodDistance_diffuse.png" />
-        </fillType>
 
 		<!--goose-->
 		<fillType name="GOOSE" title="$l10n_fillType_goose" showOnPriceTable="false">
@@ -255,12 +245,6 @@
 			<image   hud          ="$dataS/menu/hud/fillTypes/hud_fill_pig.png" />
         </fillType>
 		
-		<fillType name="GRILLGOODS" title="$l10n_fillType_grillGoods" showOnPriceTable="false">
-            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="0" />
-            <economy pricePerLiter="1.0" />
-			<image   hud          ="$dataS/menu/hud/fillTypes/hud_fill_pig.png" />
-        </fillType>
-		
 		<fillType name="SHEEPGOAT" title="$l10n_fillType_sheepGoat" showOnPriceTable="false">
             <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="0" />
             <economy pricePerLiter="1.0" />
@@ -272,146 +256,8 @@
             <economy pricePerLiter="1.0" />
             <image      hud     ="$dataS/menu/hud/fillTypes/hud_fill_chicken.png" />
         </fillType>
-		
-		<fillType name="RABBITS" title="$l10n_fillType_rabbits" showOnPriceTable="false">
-            <physics massPerLiter="3.0" maxPhysicalSurfaceAngle="0" />
-            <economy pricePerLiter="1.0" />
-            <image      hud     ="hud/fillTypes/hud_fill_rabbit.png" />
-        </fillType>
-		
-		<fillType name="PORKMEAT" title="$l10n_fillType_porkMeat" showOnPriceTable="true" isBulkType="false" isPalletType="true" unitShort="$l10n_unit_kg">
-            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="1.5">
-                <factors>
-                    <factor period="1"  value="1.00" />
-                    <factor period="2"  value="1.07" />
-                    <factor period="3"  value="0.99" />
-                    <factor period="4"  value="0.94" />
-                    <factor period="5"  value="0.85" />
-                    <factor period="6"  value="0.81" />
-                    <factor period="7"  value="0.86" />
-                    <factor period="8"  value="0.99" />
-                    <factor period="9"  value="1.08" />
-                    <factor period="10" value="1.13" />
-                    <factor period="11" value="1.21" />
-                    <factor period="12" value="1.08" />
-                </factors>
-            </economy>
-            <image      hud     ="hud/fillTypes/hud_fill_porkMeat.png" />
-			<pallet     filename="objects/pallets/meatBoxes/porkMeatBox.xml" />
-        </fillType>
-		
-		<fillType name="BEEFMEAT" title="$l10n_fillType_beefMeat" showOnPriceTable="true" isBulkType="false" isPalletType="true" unitShort="$l10n_unit_kg">
-            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="1.8">
-                <factors>
-                    <factor period="1"  value="1.00" />
-                    <factor period="2"  value="1.07" />
-                    <factor period="3"  value="0.99" />
-                    <factor period="4"  value="0.94" />
-                    <factor period="5"  value="0.85" />
-                    <factor period="6"  value="0.81" />
-                    <factor period="7"  value="0.86" />
-                    <factor period="8"  value="0.99" />
-                    <factor period="9"  value="1.08" />
-                    <factor period="10" value="1.13" />
-                    <factor period="11" value="1.21" />
-                    <factor period="12" value="1.08" />
-                </factors>
-            </economy>
-            <image      hud     ="hud/fillTypes/hud_fill_beefMeat.png" />
-			<pallet     filename="objects/pallets/meatBoxes/beefMeatBox.xml" />
-        </fillType>
-		
-		<fillType name="POULTRYMEAT" title="$l10n_fillType_poultryMeat" showOnPriceTable="true" isBulkType="false" isPalletType="true" unitShort="$l10n_unit_kg">
-            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="1.3">
-                <factors>
-                    <factor period="1"  value="1.00" />
-                    <factor period="2"  value="1.07" />
-                    <factor period="3"  value="0.99" />
-                    <factor period="4"  value="0.94" />
-                    <factor period="5"  value="0.85" />
-                    <factor period="6"  value="0.81" />
-                    <factor period="7"  value="0.86" />
-                    <factor period="8"  value="0.99" />
-                    <factor period="9"  value="1.08" />
-                    <factor period="10" value="1.13" />
-                    <factor period="11" value="1.21" />
-                    <factor period="12" value="1.08" />
-                </factors>
-            </economy>
-            <image      hud     ="hud/fillTypes/hud_fill_poultryMeat.png" />
-			<pallet     filename="objects/pallets/meatBoxes/poultryMeatBox.xml" />
-        </fillType>
-		
-		<fillType name="GOOSEMEAT" title="$l10n_fillType_gooseMeat" showOnPriceTable="true" isBulkType="false" isPalletType="true" unitShort="$l10n_unit_kg">
-            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="2.1">
-                <factors>
-                    <factor period="1"  value="1.00" />
-                    <factor period="2"  value="1.07" />
-                    <factor period="3"  value="0.99" />
-                    <factor period="4"  value="0.94" />
-                    <factor period="5"  value="0.85" />
-                    <factor period="6"  value="0.81" />
-                    <factor period="7"  value="0.86" />
-                    <factor period="8"  value="0.99" />
-                    <factor period="9"  value="1.08" />
-                    <factor period="10" value="1.13" />
-                    <factor period="11" value="1.21" />
-                    <factor period="12" value="1.08" />
-                </factors>
-            </economy>
-            <image      hud     ="hud/fillTypes/hud_fill_poultryMeat.png" />
-			<pallet     filename="objects/pallets/meatBoxes/gooseMeatBox.xml" />
-        </fillType>
-		
-		<fillType name="SHEEPGOATMEAT" title="$l10n_fillType_sheepGoatMeat" showOnPriceTable="true" isBulkType="false" isPalletType="true" unitShort="$l10n_unit_kg">
-            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="2.3">
-                <factors>
-                    <factor period="1"  value="1.00" />
-                    <factor period="2"  value="1.07" />
-                    <factor period="3"  value="0.99" />
-                    <factor period="4"  value="0.94" />
-                    <factor period="5"  value="0.85" />
-                    <factor period="6"  value="0.81" />
-                    <factor period="7"  value="0.86" />
-                    <factor period="8"  value="0.99" />
-                    <factor period="9"  value="1.08" />
-                    <factor period="10" value="1.13" />
-                    <factor period="11" value="1.21" />
-                    <factor period="12" value="1.08" />
-                </factors>
-            </economy>
-            <image      hud     ="hud/fillTypes/hud_fill_sheepGoatMeat.png" />
-			<pallet     filename="objects/pallets/meatBoxes/sheepGoatMeatBox.xml" />
-        </fillType>
-		
-		<fillType name="RABBITMEAT" title="$l10n_fillType_rabbitMeat" showOnPriceTable="true" isBulkType="false" isPalletType="true" unitShort="$l10n_unit_kg">
-            <physics massPerLiter="1.0" maxPhysicalSurfaceAngle="38" />
-            <economy pricePerLiter="1.8">
-                <factors>
-                    <factor period="1"  value="1.00" />
-                    <factor period="2"  value="1.07" />
-                    <factor period="3"  value="0.99" />
-                    <factor period="4"  value="0.94" />
-                    <factor period="5"  value="0.85" />
-                    <factor period="6"  value="0.81" />
-                    <factor period="7"  value="0.86" />
-                    <factor period="8"  value="0.99" />
-                    <factor period="9"  value="1.08" />
-                    <factor period="10" value="1.13" />
-                    <factor period="11" value="1.21" />
-                    <factor period="12" value="1.08" />
-                </factors>
-            </economy>
-            <image      hud     ="hud/fillTypes/hud_fill_rabbitMeat.png" />
-			<pallet     filename="objects/pallets/meatBoxes/rabbitMeatBox.xml" />
-        </fillType>
 	
-        
+		
 		<!-- COWS -->
 		
 		<fillType name="BULL_SWISS_BROWN" title="$l10n_fillType_bull_swiss_brown" showOnPriceTable="false">
