@@ -13,11 +13,11 @@
     <File fileId="1" filename="../../../shared/cattleEartagDE_diffuse.png"></File>
     <File fileId="2" filename="../../../shared/cattleEartagDE_normal.dds"></File>
     <File fileId="4" filename="../../../shared/lashes02_diffuse.png"></File>
-    <File fileId="10" filename="../../../../../../FS25_HofBergmann/character/animals/domesticated/earTags.i3d"></File>
-    <File fileId="11" filename="../../../../../../FS25_HofBergmann/character/animals/domesticated/earTagsRight.i3d"></File>
-    <File fileId="12" filename="../../../../../../FS25_HofBergmann/character/animals/domesticated/monitor.i3d"></File>
-    <File fileId="13" filename="../../../../../../FS25_HofBergmann/character/animals/domesticated/bumId.i3d"></File>
-    <File fileId="14" filename="../../../../../../FS25_HofBergmann/character/animals/domesticated/sprayedMarker_cattle.i3d"></File>
+    <File fileId="10" filename="../../../../../character/animals/domesticated/earTags.i3d"></File>
+    <File fileId="11" filename="../../../../../character/animals/domesticated/earTagsRight.i3d"></File>
+    <File fileId="12" filename="../../../../../character/animals/domesticated/monitor.i3d"></File>
+    <File fileId="13" filename="../../../../../character/animals/domesticated/bumId.i3d"></File>
+    <File fileId="14" filename="../../../../../character/animals/domesticated/sprayedMarker_cattle.i3d"></File>
   </Files>
   <Materials>
     <Material name="animalLashes01" materialId="5">
